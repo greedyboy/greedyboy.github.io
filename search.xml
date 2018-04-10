@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[将hexo和next的配置文件独立起来]]></title>
-    <url>%2Fblog%2F20180410-hexo-next-config-set.html</url>
+    <url>%2Fblog%2F2018%2F0410-hexo-next-config-set.html</url>
     <content type="text"><![CDATA[更新hexo版本和next主题时候，又担心配置丢失。通过官方提供功能，将配置文件_config.yml独立出来，即使通过更更新版本，也不会把配置丢失，只需要把新功能相关的配置，重新复制一下进行配置就好。功能很赞。 更新步骤 确保Hexo 版本为 3.0 或更高 在你站点的hexo/source/_data目录创建一个next.yml文件（如果_data目录不存在，请创建之）。 选择 override: false 检查默认 NexT 配置中的override选项，必须设置为false。在 next.yml文件中，也要设置为 false，或者不定义此选项。 从站点的_config.yml与主题的_config.yml中复制你需要的选项到hexo/source/_data/next.yml中。 然后，在站点的hexo/_config.yml中需要定义theme: next选项（如果需要的话，source_dir: source）。 使用标准参数来启动服务器，生成或部署（hexo clean &amp;&amp; hexo g -d &amp;&amp; hexo s）。 可能存在问题 更新生成后站点出现语言错误，我的解决方法是：不仅仅是要在站点配置中设置语言，还要在新的资源文件中配置语言。其他选项正常。如果你遇到这样问题，可以依法解决。 其他暂时正常。 悲催发现，竟然hexo d不起作用，并且三方插件也好像有问题，因此决定以上不复制站点配置，只复制主题配置 后续出现hexo更新和next主题升级操作直接升级Hexo主程序 建议还是从新安装吧，https://hexo.io/zh-cn/docs/setup.html 或者 123npm install hexo -g #安装 npm update hexo -g #升级 hexo init #初始化 更多命令官方，或者朋友总结 直接升级NexT主题12$ cd your-hexo-site$ git clone https://github.com/theme-next/hexo-theme-next themes/next 后续重点配置 升级完成首先hexo server -g，查看http://localhost:4000是不是正常，如果正常则万事大吉，如果不正常则进行如下步骤 不正常故障排除 在站点_config.yml至少要进行模板theme配置，或者可能还要language配置 复制站点设置_config.yml中需要更改的项目到hexo/source/_data/next.yml文件 复制主题设置中_config.yml中新相关设置到hexo/source/_data/next.yml文件 命令hexo server -g，查看是否正常。 在不正常，就洗洗睡吧 只复制主题配置，站点配置老老实实的升级之前备份一份吧资源参考 https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/DATA-FILES.md]]></content>
       <categories>
         <category>daybreak</category>
@@ -16,7 +16,7 @@
   </entry>
   <entry>
     <title><![CDATA[博客定位V0.1]]></title>
-    <url>%2Fblog%2F20180410-blog-orientations.html</url>
+    <url>%2Fblog%2F2018%2F0410-blog-orientations.html</url>
     <content type="text"><![CDATA[关于本博客的定位，是时候要思考一下了。 涉网多年，建站多次，最后基本都无疾而终，可能自己的性格以及做事的风格导致其恶果。这次又重新折腾起来的原因是大概受一些博友的影响，也相对自己行为习惯做一个正确的引导和监督。 明确定位 梳理自己解决问题的思路和方法。自己往往解决完一个问题后，疏于总结，最后再遇到同样问题的时候，又要重新开始，为避免在同一问题上做重复工作，总结还是很有必要的，期望日积月累，形成自己的技术库。 发表自己对于问题的看法。自己也要尝试着有态度，有深度。 网摘录好文。站在巨人的肩上，我可以看得更远。 沟通交流。三人行，必有我师。 拒绝发表 流水日志：建站目的之一最终还是沦落为首要抛弃对象。 有关个人、朋友隐私的信息。大数据时代，显然隐私已成为笑谈，作为一个社会人，我即便不能逃避别有用心之人的窥探，也要在他们行凶的路上提供一些障碍，尽管我可能最终不能阻止他们得逞，但是也要尽力去延缓他们的步伐。 不实言论。拒绝虚假。 不适言论。]]></content>
       <categories>
         <category>daybreak</category>
@@ -29,7 +29,7 @@
   </entry>
   <entry>
     <title><![CDATA[Hexo本地搭建过程使用NexT模板]]></title>
-    <url>%2Fblog%2F20180409-Hexo-NexT-github-config.html</url>
+    <url>%2Fblog%2F2018%2F0409-Hexo-NexT-github-config.html</url>
     <content type="text"><![CDATA[Hexo本地搭建过程使用NexT模板,记录博客建立过程，及部分配置。完成本博客的初步设置，最近修改的主题显示，也包涵在这里。 1. 安装node.js http://nodejs.cn 2.安装git (说明：LTS为长期支持版，Current为当前最新版) https://git-scm.com/ 查看版本： 命令：node -v 3.使用npm安装Hexo 打开cmd.exe cd到blog安装目录:E:\web\hexo cmd 命令 example: 12E:\cd web\hexo 使用npm安装hexo.要等待好久，决定网速 12npm install -g hexo-cli// -g是全局安装的意思。 4.初始化hexo 命令：hexo init 内部文件说明 node_modules：是依赖包 public：存放的是生成的页面 scaffolds：命令生成文章等的模板 source：用命令创建的各种文章 themes：主题 _config.yml：整个博客的配置 db.json：source解析所得到的 package.json：项目所需模块项目的配置信息 做好这些前置工作之后接下来的就是各种配配配置了。 5.注册github 创建账号在https://www.github.com 创建项目名称为{用户名}.github.io 部署pages 创建SSH 在gitbash中输入： ssh-keygen -t rsa -C “youremail@example.com“ 生成ssh。然后复制id_rsa.pub文件的内容放到github中 在gitbash中验证是否添加成功： ssh -T git@github.com 6.回到hexo设置 打开博客中_config.yml进行文件配置 冒号之后都是有一个半角空格的 1234deploy: type: git repo: https://github.com/username/username.github.io.git branch: master 在博客目录上gitbase命令 123hexo cleanhexo generatehexo server 打开浏览器查看blog：http://localhost:4000 hexo命令1234567891011121314hexo new &quot;postName&quot; #新建文章hexo new page &quot;pageName&quot; #新建页面hexo generate #生成静态页面至public目录hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server）hexo deploy #将.deploy目录部署到GitHubhexo help # 查看帮助hexo version #查看Hexo的版本hexo deploy -g #生成加部署hexo server -g #生成加预览命令的简写hexo n == hexo newhexo g == hexo generatehexo s == hexo serverhexo d == hexo deploy 7.部署到github 安装支持，在博客目录cmd命令 1npm install hexo-deployer-git --save 清理缓存，生成，上传。博客目录中cmd.exe命令 123hexo cleanhexo generatehexo deploy 浏览器中输入username.github.io可以查看博客 8.绑定域名 注册域名 到github中page设置自己购买的域名 cmd中ping username.github.io得到ip 在域名解析中设置cname记录到username.github.io 在a中设置@,ip为刚才ping得到的ip 在hexo博客目录source中创建CNAME文件,内容为域名 9.更改主题-next 下载安装next主题 在博客目录下gitbase命令 1git clone https://github.com/iissnan/hexo-theme-next themes/next 打开 站点配置文件， 找到 theme 字段，并将其值更改为 next 配置文件就是根目录下的_config.yml文件 修改hexo具体配置查看 http://theme-next.iissnan.com/getting-started.html](http://theme-next.iissnan.com/getting-started.html主题修改 强势推荐 https://blog.csdn.net/qq_33699981/article/details/72716951添加rss 安装插件。进入本地hexo目录，打开git bash。输入以下命令 npm install hexo-generator-feed 在本地hexo根目录下的_config.yml文件中，添加以下配置。 12345678910# Extensions## Plugins: http://hexo.io/plugins/#RSS订阅plugin:- hexo-generator-feed#Feed Atomfeed:type: atompath: atom.xmllimit: 20 添加主题配置，在主题目录下的_config.yml目录下，添加如下配置。 rss: /atom.xml文末添加文本结束 在路径 \themes\next\layout\_macro 中新建 passage-end-tag.swig 文件,并添加以下内容： 12345&lt;div&gt; &#123;% if not is_index %&#125; &lt;div style=&quot;text-align:center;color: #ccc;font-size:14px;&quot;&gt;-------------本文结束&lt;i class=&quot;fa fa-paw&quot;&gt;&lt;/i&gt;感谢您的阅读-------------&lt;/div&gt; &#123;% endif %&#125;&lt;/div&gt; 接着打开\themes\next\layout\_macro\post.swig文件，在post-body 之后， post-footer 之前添加 12345 &#123;% if theme.passage_end_tag.enabled and not is_index %&#125;&lt;div&gt; &#123;% include &apos;passage-end-tag.swig&apos; %&#125; &lt;/div&gt; &#123;% endif %&#125; 然后打开主题配置文件（_config.yml),在末尾添加： 123# 文章末尾添加“本文结束”标记passage_end_tag: enabled: true 实现字数统计功能 https://github.com/theme-next/hexo-symbols-count-time顶部加载条 https://github.com/theme-next/theme-next-pace本地搜索 https://github.com/theme-next/hexo-generator-searchdb 10.创作博客 cmd博客根目录下 1234hexo new &quot;postName&quot; //hexo n 也可以 //你自己的博客名称，名为postName.md的文件会建在目 //录/blog/source/_posts下。 说明new格式 $ hexo new [layout] | layout | 路径 | 说明 || :-: | :-: | :-: || post | source/_posts | 默认，可以直接发布 || page | source | 在source下新建一个文件夹 || draft |source/_drafts | 新建文件将保持到_drafts中 | tags两种模式 123456tags: [tag1, tag2, tag3]或者tags: - tag1 - tag2 - tag3 markdown更多语法 之后进行文件编辑，使用markdown格式，然后进行发布 在根目录下cmd.exe12hexo g //生成静态页面hexo d //发布 11.总结自己的疑惑 创建bolog的过程非常接近与code编码的过程，的确符合程序猿的习惯 博客如果多了怎么进行管理？ 增加会了，上该如何进行？ 没有可视化的工具，创建完文件名后需要找到相应的文件位置，打开编辑器进行编辑，感觉有点麻烦。]]></content>
       <categories>
         <category>Hexo</category>
@@ -42,7 +42,7 @@
   </entry>
   <entry>
     <title><![CDATA[git客户端和putty客户端共用一个私匙问题]]></title>
-    <url>%2Fblog%2F20180409-git-putty-pub-rsa.html</url>
+    <url>%2Fblog%2F2018%2F0409-git-putty-pub-rsa.html</url>
     <content type="text"><![CDATA[问题：在进行github公匙管理的时候，希望完成共用一个钥匙的问题。因为gitbase自己可以产生，我使用的putty客户端也可以产生，本文就是将两者合为一个而进行使用。共同使用putty产生的钥匙。 注：id_rsa是ssh的私钥，id_rsa.pub是对应的公钥，以上两个是OpenSSH用的格式，ppk文件中同时包含了公钥和私钥，多见于putty客户端。id_rsa和ppk文件是可以互相转的，可以打开看看，都是纯文本，差别不大 putty产生公匙 保证下载最新的putty客户端https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html 安装相应的版本下载，然后安装，如果安装有其他git客户端，主要保持原有的putty目录一致。 打开puttygen.exe 点击generate，保持鼠标晃动 可见产生相关密匙，可以将这个密匙复制，然后粘贴到各个网站托管项目设置的ssh地方，不在赘述。 然后保存save privatekey,生成*.ppk文件(保存后可以重新导入，并在客户端应用) 点击菜单栏conversions,Conversions,Export OpenSSH key，放到C:/user/用户名/.ssh文件夹下，备用。 将公匙导入gitbase 打开gitbase 以下代码，将公匙传递给git bash,并利用git bash生成器私匙 1234eval `ssh-agent -s`ssh-agentssh-addssh-keygen -f ~/.ssh/id_rsa -y &gt; ~/.ssh/id_rsa.pub 然后运行ssh git@github.com 出现You&#39;ve successfully authenticated, but GitHub does not provide shell access.表示成功完美。 历程参考，对原作者致敬 https://blog.csdn.net/AuthorK/article/details/77894801 https://stackoverflow.com/questions/42863913/key-load-public-invalid-format https://www.cnblogs.com/sunnypei/articles/5811283.html https://www.zhihu.com/question/22427215/answer/21318165]]></content>
       <categories>
         <category>git</category>
@@ -57,7 +57,7 @@
   </entry>
   <entry>
     <title><![CDATA[欠下的总要还]]></title>
-    <url>%2Fblog%2F20180408-index2.html</url>
+    <url>%2Fblog%2F2018%2F0408-index2.html</url>
     <content type="text"><![CDATA[Good Good Study,Day Day UP! 一句话，欠下的总要归还的。 想法太多，行动太少，以至于会有遗憾。应该极尽可能的去加油。]]></content>
       <categories>
         <category>daybreak</category>
@@ -69,7 +69,7 @@
   </entry>
   <entry>
     <title><![CDATA[站点更新小结V18.04.10]]></title>
-    <url>%2Fblog%2F20180408-go-to-work.html</url>
+    <url>%2Fblog%2F2018%2F0408-go-to-work.html</url>
     <content type="text"><![CDATA[Good Good Study,Day Day UP! Reflection 首先要有内容，才需要建立博客，不然有点本末倒置的味道 由此耽误了很多的工作，暂时告一段落 1/40程序员，真的不着调 把自己的主业搞起来，才ok 有时间的话尝试是可以的，但是不能如此的分心啊 Done 记录hexo+next博客配置 至此暂时告别一个段落hexo+next配置内容设置如下 网站配置_config.yml设置内容1234567891011121314151617181920212223title: WQian&apos;S Blogsubtitle: Working For Daybreak...author: WQianlanguage: zh-CNtimezone: Asia/Shanghai...# URL## If your site is put in a subdirectory, set url as &apos;http://yoursite.com/child&apos; and root as &apos;/child/&apos;url: https://tgot.netroot: /permalink: blog/:year:month:day-:urlname.htmlpermalink_defaults:urlname: index...theme: next-reloaded...# Deployment## Docs: https://hexo.io/docs/deployment.htmldeploy: type: git repo: git@github.com:greedyboy/greedyboy.github.io.git branch: master 主题配置_config.yml设置内容123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475footer: # Specify the date when the site was setup. # If not defined, current year will be used. since: 2018.... # If not defined, will be used `author` from Hexo main config. copyright: # ------------------------------------------------------------- powered: # Hexo link (Powered by Hexo). enable: true # Version info of Hexo after Hexo link (vX.X.X). version: false theme: # Theme &amp; scheme info link (Theme - NexT.scheme). enable: true # Version info of NexT after scheme info (vX.X.X). version: false.... menu: home: / || home about: /about/ || user tags: /tags/ || tags categories: /categories/ || th archives: /archives/ || archive #schedule: /schedule/ || calendar #sitemap: /sitemap.xml || sitemap #commonweal: /404/ || heartbeat .... scheme: Pisces ... social: GitHub: https://github.com/yourname || github E-Mail: mailto:admin@tgot.net || envelope .... # Rewardreward_comment: Thanks for your work.wechatpay: /images/wechatpay.jpgalipay: /images/alipay.jpg#bitcoin: /images/bitcoin.png...post_copyright: enable: true license: &lt;a href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;CC BY-NC-SA 4.0&lt;/a&gt;.........!!!!!重点!开启方式hexo主题next目录下$ git clone https://github.com/theme-next/theme-next-reading-progress source/lib/reading_progress然后开启reading_progress: enable: true color: &quot;#37c6c0&quot; height: 2px ......... # CNZZ countcnzz_siteid: 1273359837.......$ git clone https://github.com/theme-next/theme-next-needmoreshare2 source/lib/needsharebuttonneedmoreshare2: enable: true postbottom: enable: true options: iconStyle: box boxForm: horizontal position: bottomCenter networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook float: enable: false options: iconStyle: box boxForm: horizontal position: middleRight networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook 2018-4-9 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354# Post wordcount display settings# Dependencies: https://github.com/theme-next/hexo-symbols-count-timesymbols_count_time: separated_meta: true item_text_post: true item_text_total: false awl: 25 wpm: 200 ## Plugins: http://hexo.io/plugins/#RSS订阅plugin:- hexo-generator-feed#Feed Atomfeed:type: atompath: atom.xmllimit: 20# Table Of Contents in the Sidebartoc: enable: true # Automatically add list number to toc. number: true # Scroll percent label in b2t button. scrollpercent: true # Post wordcount display settings# Dependencies: https://github.com/theme-next/hexo-symbols-count-timesymbols_count_time: separated_meta: true item_text_post: true item_text_total: false awl: 25 wpm: 200# CNZZ countcnzz_siteid: 1273359837# Local search# Dependencies: https://github.com/theme-next/hexo-generator-searchdblocal_search: enable: true # if auto, trigger search by changing input # if manual, trigger search by pressing enter key or search button trigger: auto # show top n results per article, show all results by setting to -1 top_n_per_article: 1 # unescape html strings to the readable one unescape: false]]></content>
       <categories>
         <category>daybreak</category>
@@ -82,7 +82,7 @@
   </entry>
   <entry>
     <title><![CDATA[Daily Summary]]></title>
-    <url>%2Fblog%2F20180408-index.html</url>
+    <url>%2Fblog%2F2018%2F0408-index.html</url>
     <content type="text"><![CDATA[Good Good Study,Day Day UP! Done blog目录配置._config.yml 123permalink: blog/:year:month:day-:urlname.htmlpermalink_defaults:urlname: index post模板配置blog\scaffolds\post.md 1234567891011121314151617181920---title: &#123;&#123; title &#125;&#125;date: &#123;&#123; date &#125;&#125;urlname: indextags:- diarycategories:- daybreak---Good Good Study,Day Day UP!## Done- ## Reflection- ## ToDo- Reflection so easy ToDo wait for next good way]]></content>
       <categories>
         <category>daybreak</category>
@@ -94,7 +94,7 @@
   </entry>
   <entry>
     <title><![CDATA[凑日记]]></title>
-    <url>%2Fblog%2F20180407-index2.html</url>
+    <url>%2Fblog%2F2018%2F0407-index2.html</url>
     <content type="text"><![CDATA[Good Good Study,Day Day UP! Done 完善了hexomotor，有一定的想法，回头整理一下。 完善了模板，增删文件 Reflection no time to do nothing. be careful.]]></content>
       <categories>
         <category>daybreak</category>
@@ -106,7 +106,7 @@
   </entry>
   <entry>
     <title><![CDATA[Hexo自动化工具]]></title>
-    <url>%2Fblog%2F20180407-index1.html</url>
+    <url>%2Fblog%2F2018%2F0407-index1.html</url>
     <content type="text"><![CDATA[this is a daily summary 完成Visual basic 程序更新hexo博客 自动生成blog 自动创建名称 自动打开文本编辑器编辑文本 自动编译并上传到空间 文件放到blog的目录下面]]></content>
       <tags>
         <tag>HexoMotor</tag>
@@ -114,7 +114,7 @@
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <url>%2Fblog%2F20180330-hello-world.html</url>
+    <url>%2Fblog%2F2018%2F0330-hello-world.html</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
       <tags>
         <tag>hexo</tag>
