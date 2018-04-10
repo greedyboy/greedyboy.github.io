@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tgot.net/"/>
-  <updated>2018-04-10T07:04:35.596Z</updated>
+  <updated>2018-04-10T09:42:05.365Z</updated>
   <id>https://tgot.net/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://tgot.net/blog/20180410-indexxxx.html"/>
+    <id>https://tgot.net/blog/20180410-indexxxx.html</id>
+    <published>2018-04-10T09:41:56.000Z</published>
+    <updated>2018-04-10T09:42:05.365Z</updated>
+    
+    <content type="html"><![CDATA[<p>Good Good Study,Day Day UP!</p><h2 id="Done"><a href="#Done" class="headerlink" title="Done"></a>Done</h2><ul><li><h2 id="Reflection"><a href="#Reflection" class="headerlink" title="Reflection"></a>Reflection</h2></li><li></li></ul><h2 id="ToDo"><a href="#ToDo" class="headerlink" title="ToDo"></a>ToDo</h2><ul><li><a id="more"></a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Good Good Study,Day Day UP!&lt;/p&gt;
+&lt;h2 id=&quot;Done&quot;&gt;&lt;a href=&quot;#Done&quot; class=&quot;headerlink&quot; title=&quot;Done&quot;&gt;&lt;/a&gt;Done&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;h2 id=&quot;Reflection&quot;&gt;&lt;a href=&quot;#Reflection&quot; class=&quot;headerlink&quot; title=&quot;Reflection&quot;&gt;&lt;/a&gt;Reflection&lt;/h2&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;ToDo&quot;&gt;&lt;a href=&quot;#ToDo&quot; class=&quot;headerlink&quot; title=&quot;ToDo&quot;&gt;&lt;/a&gt;ToDo&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+    
+    </summary>
+    
+      <category term="daybreak" scheme="https://tgot.net/categories/daybreak/"/>
+    
+    
+      <category term="diary" scheme="https://tgot.net/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>博客定位V0.1</title>
