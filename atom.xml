@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tgot.net/"/>
-  <updated>2018-04-16T06:33:30.184Z</updated>
+  <updated>2018-04-16T13:38:43.871Z</updated>
   <id>https://tgot.net/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Connect to coding sql database</title>
+    <link href="https://tgot.net/blog/2018/0416-index0.html"/>
+    <id>https://tgot.net/blog/2018/0416-index0.html</id>
+    <published>2018-04-16T13:33:39.000Z</published>
+    <updated>2018-04-16T13:38:43.871Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Just a backup for coding connect to mysql datebase for myself.<br><a id="more"></a></p></blockquote><p>index.php</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;?php</span><br><span class="line">$mysqli = new mysqli($_ENV[&apos;MYSQL_HOST&apos;] . &quot;:&quot; . $_ENV[&apos;MYSQL_PORT&apos;],$_ENV[&apos;MYSQL_USERNAME&apos;],$_ENV[&apos;MYSQL_PASSWORD&apos;],$_ENV[&apos;MYSQL_DBNAME&apos;]);</span><br><span class="line"></span><br><span class="line">if (mysqli_connect_errno()) &#123;</span><br><span class="line">    printf(&quot;Connect failed: %s\n&quot;, mysqli_connect_error());</span><br><span class="line">    exit();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* prepare statement */</span><br><span class="line">if ($stmt = $mysqli-&gt;prepare(&quot;select id,title from dbtest&quot;)) &#123;</span><br><span class="line">    $stmt-&gt;execute();</span><br><span class="line"></span><br><span class="line">    /* bind variables to prepared statement */</span><br><span class="line">    $stmt-&gt;bind_result($col1, $col2);</span><br><span class="line"></span><br><span class="line">    /* fetch values */</span><br><span class="line">    while ($stmt-&gt;fetch()) &#123;</span><br><span class="line">        printf(&quot;%s %s\n&quot;, $col1, $col2);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    /* close statement */</span><br><span class="line">    $stmt-&gt;close();</span><br><span class="line">&#125;</span><br><span class="line">/* close connection */</span><br><span class="line">$mysqli-&gt;close();</span><br><span class="line"></span><br><span class="line">?&gt;</span><br><span class="line"></span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Just a backup for coding connect to mysql datebase for myself.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="daybreak" scheme="https://tgot.net/categories/daybreak/"/>
+    
+    
+      <category term="code" scheme="https://tgot.net/tags/code/"/>
+    
+      <category term="coding" scheme="https://tgot.net/tags/coding/"/>
+    
+  </entry>
   
   <entry>
     <title>XMind 8 pro update 7软件安装手记</title>
@@ -380,9 +405,9 @@
       <category term="daybreak" scheme="https://tgot.net/categories/daybreak/"/>
     
     
-      <category term="diary" scheme="https://tgot.net/tags/diary/"/>
-    
       <category term="HexoMotor" scheme="https://tgot.net/tags/HexoMotor/"/>
+    
+      <category term="diary" scheme="https://tgot.net/tags/diary/"/>
     
   </entry>
   
