@@ -8,10 +8,10 @@
         <category>软件列表</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
         <tag>coding</tag>
         <tag>webide</tag>
         <tag>next</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -94,8 +94,8 @@
         <category>博客设置</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
         <tag>next</tag>
+        <tag>hexo</tag>
         <tag>rss</tag>
       </tags>
   </entry>
@@ -107,8 +107,8 @@
         <category>daybreak</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
         <tag>next</tag>
+        <tag>hexo</tag>
         <tag>config.yml</tag>
         <tag>博客配置</tag>
       </tags>
@@ -199,8 +199,8 @@
         <category>daybreak</category>
       </categories>
       <tags>
-        <tag>diary</tag>
         <tag>HexoMotor</tag>
+        <tag>diary</tag>
       </tags>
   </entry>
   <entry>
