@@ -111,7 +111,7 @@
 
 
   <meta name="description" content="发现coding出品了一款Coding WebIDE的工具，据说：Coding WebIDE 是 Coding 自主研发的在线集成开发环境 (IDE)。用户可以通过 WebIDE 创建项目的工作空间, 进行在线开发, 调试等操作。作者针对此进行了尝试应用，并成功搭建了基于next主题的hexo博客。记录过程如下，以供有相同需要的朋友参考。作者用它解决了通过网络发布静态博客的问题。其他功能还很多">
-<meta name="keywords" content="coding,webide,next,hexo">
+<meta name="keywords" content="hexo,coding,next,webide">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Coding Webide搭建hexo博客next主题">
 <meta property="og:url" content="https://tgot.net/blog/2018/0417-coding-webide-hexo-next.html">
@@ -119,7 +119,7 @@
 <meta property="og:description" content="发现coding出品了一款Coding WebIDE的工具，据说：Coding WebIDE 是 Coding 自主研发的在线集成开发环境 (IDE)。用户可以通过 WebIDE 创建项目的工作空间, 进行在线开发, 调试等操作。作者针对此进行了尝试应用，并成功搭建了基于next主题的hexo博客。记录过程如下，以供有相同需要的朋友参考。作者用它解决了通过网络发布静态博客的问题。其他功能还很多">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://cdn.pixabay.com/photo/2018/01/06/09/25/hijab-3064633_1280.jpg">
-<meta property="og:updated_time" content="2018-04-17T03:56:45.555Z">
+<meta property="og:updated_time" content="2018-04-17T03:58:44.091Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Coding Webide搭建hexo博客next主题">
 <meta name="twitter:description" content="发现coding出品了一款Coding WebIDE的工具，据说：Coding WebIDE 是 Coding 自主研发的在线集成开发环境 (IDE)。用户可以通过 WebIDE 创建项目的工作空间, 进行在线开发, 调试等操作。作者针对此进行了尝试应用，并成功搭建了基于next主题的hexo博客。记录过程如下，以供有相同需要的朋友参考。作者用它解决了通过网络发布静态博客的问题。其他功能还很多">
@@ -250,7 +250,7 @@
         
           
   
-  <li class="menu-item menu-item-about menu-item-active">
+  <li class="menu-item menu-item-about">
     <a href="/about/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
 </li>
@@ -260,7 +260,7 @@
         
           
   
-  <li class="menu-item menu-item-tags">
+  <li class="menu-item menu-item-tags menu-item-active">
     <a href="/tags/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
 </li>
@@ -458,14 +458,16 @@
       
 
       
-        <p><img src="https://cdn.pixabay.com/photo/2018/01/06/09/25/hijab-3064633_1280.jpg" alt=""></p>
+        <p><img src="https://cdn.pixabay.com/photo/2018/01/06/09/25/hijab-3064633_1280.jpg" alt="感谢pixabay供图"></p>
 <blockquote>
 <p>发现coding出品了一款<a href="https://ide.coding.net/index" target="_blank" rel="noopener">Coding WebIDE</a>的工具，据说：Coding WebIDE 是 Coding 自主研发的在线集成开发环境 (IDE)。用户可以通过 WebIDE 创建项目的工作空间, 进行在线开发, 调试等操作。作者针对此进行了尝试应用，并成功搭建了基于next主题的hexo博客。记录过程如下，以供有相同需要的朋友参考。作者用它解决了通过网络发布静态博客的问题。其他功能还很多，可以自行尝试。</p>
 </blockquote>
 <a id="more"></a>
 <h3 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h3><ul>
 <li>本教程需要有一定的操作基础，最好在本地搭建过hexo和next的过程。</li>
-<li>可以参考，本站中文章：<a href="../blog/2018/0409-Hexo-NexT-github-config.html">Hexo本地搭建过程使用NexT模板</a><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3></li>
+<li>可以参考，本站中文章：<a href="../blog/2018/0409-Hexo-NexT-github-config.html">Hexo本地搭建过程使用NexT模板</a></li>
+</ul>
+<h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><ul>
 <li>申请coding账户，<a href="https://coding.net/" target="_blank" rel="noopener">https://coding.net/</a></li>
 <li>登录账户，创建一个项目，比如为blog，得到git地址</li>
 <li>设置page，得到静态网站刘览地址<a href="http://xxxxxx" target="_blank" rel="noopener">http://xxxxxx</a></li>
@@ -569,13 +571,13 @@
       
         <div class="post-tags">
           
-            <a href="/tags/coding/" rel="tag"><i class="fa fa-tag"></i> coding</a>
+            <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
           
-            <a href="/tags/webide/" rel="tag"><i class="fa fa-tag"></i> webide</a>
+            <a href="/tags/coding/" rel="tag"><i class="fa fa-tag"></i> coding</a>
           
             <a href="/tags/next/" rel="tag"><i class="fa fa-tag"></i> next</a>
           
-            <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
+            <a href="/tags/webide/" rel="tag"><i class="fa fa-tag"></i> webide</a>
           
         </div>
       
