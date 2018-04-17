@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[多个git账户使用同一个私匙问题解决方法]]></title>
+    <url>%2Fblog%2F2018%2F0417-git-private-key-user.html</url>
+    <content type="text"><![CDATA[遇到问题：网上有多个平台提供源码托管服务，比如国外的github,gitlab,以及国内的gitee,coding等公司，如果每个平台注册一个账号，使git项目管理，只要把ssh产生的公匙分别配置到各个托管平台提供的设置ssh公匙上就可以了。但是有的时候可能出于比如躲避女友删除等很多原因，需要在一个平台上注册多个账户，那么怎么处理这种问题呢？下面我给出了自己的解决方法，可能不具有普适性，仅供参考。 术语解释 平台：指源码托管平台，比如网站github,gitlab,gitee,coding等 账户：某个平台下注册的账户，比如用户名为user,可以在github注册，也可以在gitee注册，也有可能不相同。 相同平台多账户：在单个平台下注册的多个账户，比如在github上注册了user1,user2,user3等账户 本文重点解决问题是：在相同平台下多账户进行git管理操作问题。 使用git或其他git客户端生成密匙 我使用的是git extension客户端生成多个密匙。首先打开git extension 点击tool下面的，putty,generate or import key 弹出对话框，点击generate并在上部空白晃动鼠标，等待结束 点击下部save private key，选择保存路径及文件名，记得后缀为.ppk 将私匙配置到网站 将上步中，生成的字符串全选，复制到粘贴板 打开源码托管网站，用账号A登录，设置到相应ssh设置地方 设置多个账户 按照第一步中从新生成一个密匙，并保存到路径，同时命名文件名，依然要记得后缀为.ppk 用账号B登录源码托管网站，把第二次生成的密匙设置到ssh设置地方 这样就解决了问题。 应用环节 我运用git extension客户端进行git项目管理，进行pull或push操作。 多个平台用一个密匙没有问题，如果一个平台多个账户就要选择相应账户对应的密匙。 可能出现的问题 一定要记得存放路径，并且后缀为.ppk 客户端产生的密匙如果想导入到git base进行使用，可以查看本站文章。git客户端和putty客户端共用一个私匙问题 如果生成密匙的时候没有将密匙设置到相应账户，可以打开putty然后加载密匙，之后再将相应密匙设置到平台账户。 如果文章对你有一丁点的触动，请捐一分钱鼓励作者继续创作吧]]></content>
+      <categories>
+        <category>daybreak</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>putty</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Connect to coding sql database]]></title>
     <url>%2Fblog%2F2018%2F0416-index0.html</url>
     <content type="text"><![CDATA[Just a backup for coding connect to mysql datebase for myself. index.php 12345678910111213141516171819202122232425262728293031323334&lt;!DOCTYPE html&gt;&lt;html&gt; &lt;body&gt;&lt;?php$mysqli = new mysqli($_ENV[&apos;MYSQL_HOST&apos;] . &quot;:&quot; . $_ENV[&apos;MYSQL_PORT&apos;],$_ENV[&apos;MYSQL_USERNAME&apos;],$_ENV[&apos;MYSQL_PASSWORD&apos;],$_ENV[&apos;MYSQL_DBNAME&apos;]);if (mysqli_connect_errno()) &#123; printf(&quot;Connect failed: %s\n&quot;, mysqli_connect_error()); exit();&#125;/* prepare statement */if ($stmt = $mysqli-&gt;prepare(&quot;select id,title from dbtest&quot;)) &#123; $stmt-&gt;execute(); /* bind variables to prepared statement */ $stmt-&gt;bind_result($col1, $col2); /* fetch values */ while ($stmt-&gt;fetch()) &#123; printf(&quot;%s %s\n&quot;, $col1, $col2); &#125; /* close statement */ $stmt-&gt;close();&#125;/* close connection */$mysqli-&gt;close();?&gt; &lt;/body&gt;&lt;/html&gt;]]></content>
@@ -173,8 +185,8 @@
         <category>daybreak</category>
       </categories>
       <tags>
-        <tag>HexoMotor</tag>
         <tag>diary</tag>
+        <tag>HexoMotor</tag>
       </tags>
   </entry>
   <entry>
