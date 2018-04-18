@@ -37,13 +37,13 @@
       <category term="软件列表" scheme="https://tgot.net/categories/%E8%BD%AF%E4%BB%B6%E5%88%97%E8%A1%A8/"/>
     
     
-      <category term="coding" scheme="https://tgot.net/tags/coding/"/>
-    
       <category term="hexo" scheme="https://tgot.net/tags/hexo/"/>
     
-      <category term="next" scheme="https://tgot.net/tags/next/"/>
+      <category term="coding" scheme="https://tgot.net/tags/coding/"/>
     
       <category term="webide" scheme="https://tgot.net/tags/webide/"/>
+    
+      <category term="next" scheme="https://tgot.net/tags/next/"/>
     
   </entry>
   
@@ -93,9 +93,9 @@
       <category term="daybreak" scheme="https://tgot.net/categories/daybreak/"/>
     
     
-      <category term="code" scheme="https://tgot.net/tags/code/"/>
-    
       <category term="coding" scheme="https://tgot.net/tags/coding/"/>
+    
+      <category term="code" scheme="https://tgot.net/tags/code/"/>
     
   </entry>
   
@@ -345,9 +345,9 @@
     
       <category term="git" scheme="https://tgot.net/tags/git/"/>
     
-      <category term="putty" scheme="https://tgot.net/tags/putty/"/>
-    
       <category term="github" scheme="https://tgot.net/tags/github/"/>
+    
+      <category term="putty" scheme="https://tgot.net/tags/putty/"/>
     
       <category term="id_rsa" scheme="https://tgot.net/tags/id-rsa/"/>
     
@@ -463,9 +463,9 @@
       <category term="daybreak" scheme="https://tgot.net/categories/daybreak/"/>
     
     
-      <category term="diary" scheme="https://tgot.net/tags/diary/"/>
-    
       <category term="HexoMotor" scheme="https://tgot.net/tags/HexoMotor/"/>
+    
+      <category term="diary" scheme="https://tgot.net/tags/diary/"/>
     
   </entry>
   
