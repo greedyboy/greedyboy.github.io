@@ -111,7 +111,7 @@
 
 
   <meta name="description" content="问题：在进行github公匙管理的时候，希望完成共用一个钥匙的问题。因为gitbase自己可以产生，我使用的putty客户端也可以产生，本文就是将两者合为一个而进行使用。共同使用putty产生的钥匙。   注：id_rsa是ssh的私钥，id_rsa.pub是对应的公钥，以上两个是OpenSSH用的格式，ppk文件中同时包含了公钥和私钥，多见于putty客户端。id_rsa和ppk文件是可以互相">
-<meta name="keywords" content="git,github,putty,id_rsa,id_rsa.pub">
+<meta name="keywords" content="git,putty,github,id_rsa,id_rsa.pub">
 <meta property="og:type" content="article">
 <meta property="og:title" content="git客户端和putty客户端共用一个私匙问题">
 <meta property="og:url" content="https://tgot.net/blog/2018/0409-git-putty-pub-rsa.html">
@@ -435,6 +435,14 @@
           
 
           
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon"
+            >
+            <i class="fa fa-eye"></i>
+             阅读次数： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
 
           
 
@@ -499,6 +507,20 @@
     
 
     
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>WQian</li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://tgot.net/blog/2018/0409-git-putty-pub-rsa.html" title="git客户端和putty客户端共用一个私匙问题">https://tgot.net/blog/2018/0409-git-putty-pub-rsa.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</li>
+</ul>
+
+      </div>
+    
 
     <footer class="post-footer">
       
@@ -506,9 +528,9 @@
           
             <a href="/tags/git/" rel="tag"># git</a>
           
-            <a href="/tags/github/" rel="tag"># github</a>
-          
             <a href="/tags/putty/" rel="tag"># putty</a>
+          
+            <a href="/tags/github/" rel="tag"># github</a>
           
             <a href="/tags/id-rsa/" rel="tag"># id_rsa</a>
           
@@ -820,20 +842,32 @@
 
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" rel="external nofollow" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" rel="external nofollow" href="https://github.com/theme-next/hexo-theme-next">NexT.Gemini</a></div>
 
 
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv" title="总访客量">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="site-pv" title="总访问量">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
 
 
 
@@ -1335,8 +1369,30 @@
   
 
   
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
 
   
+  
+
+  
+  
+
+  
+
 
   
   
@@ -1371,6 +1427,64 @@
   
 
   
+  <style>
+      .copy-btn {
+          display: inline-block;
+          padding: 6px 12px;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 20px;
+          color: #333;
+          white-space: nowrap;
+          vertical-align: middle;
+          cursor: pointer;
+          background-color: #eee;
+          background-image: linear-gradient(#fcfcfc, #eee);
+          border: 1px solid #d5d5d5;
+          border-radius: 3px;
+          user-select: none;
+      }
+
+      .highlight-wrap .copy-btn {
+          transition: opacity .3s ease-in-out;
+          opacity: 0;
+          padding: 2px 6px;
+          position: fixed;
+          right: 4px;
+          top: 8px;
+      }
+
+      .highlight-wrap:hover .copy-btn,
+      .highlight-wrap .copy-btn:focus {
+          opacity: 1
+      }
+
+      .highlight-wrap {
+          transform: translateZ(0);
+      }
+  </style>
+  <script>
+      $('.highlight').each(function(i, e) {
+          var $wrap = $('<div>').addClass('highlight-wrap')
+          $(e).after($wrap)
+          $wrap.append($('<button>').addClass('copy-btn').append('复制').on('click', function(e) {
+              var code = $(e.target).parent().find('.code').find('.line').map(function(i, e) {
+                  return $(e).text()
+              }).toArray().join('\n')
+              var ta = document.createElement('textarea')
+              document.body.appendChild(ta)
+              ta.style.position = 'fixed'
+              ta.style.top = 0
+              ta.style.left = 0
+              ta.value = code
+              ta.select()
+              ta.focus()
+              document.execCommand('copy')
+              document.body.removeChild(ta)
+          })).append(e)
+      })
+  </script>
+
 
 </body>
 </html>

@@ -8,10 +8,10 @@
         <category>软件列表</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
         <tag>coding</tag>
-        <tag>webide</tag>
+        <tag>hexo</tag>
         <tag>next</tag>
+        <tag>webide</tag>
       </tags>
   </entry>
   <entry>
@@ -34,8 +34,8 @@
         <category>daybreak</category>
       </categories>
       <tags>
-        <tag>coding</tag>
         <tag>code</tag>
+        <tag>coding</tag>
       </tags>
   </entry>
   <entry>
@@ -148,8 +148,8 @@
       </categories>
       <tags>
         <tag>git</tag>
-        <tag>github</tag>
         <tag>putty</tag>
+        <tag>github</tag>
         <tag>id_rsa</tag>
         <tag>id_rsa.pub</tag>
       </tags>
@@ -199,8 +199,8 @@
         <category>daybreak</category>
       </categories>
       <tags>
-        <tag>HexoMotor</tag>
         <tag>diary</tag>
+        <tag>HexoMotor</tag>
       </tags>
   </entry>
   <entry>
