@@ -113,18 +113,18 @@
 
 
 
-  <meta name="description" content="遇到问题：网上有多个平台提供源码托管服务，比如国外的github,gitlab,以及国内的gitee,coding等公司，如果每个平台注册一个账号，使git项目管理，只要把ssh产生的公匙分别配置到各个托管平台提供的设置ssh公匙上就可以了。但是有的时候可能出于比如躲避女友删除等很多原因，需要在一个平台上注册多个账户，那么怎么处理这种问题呢？下面我给出了自己的解决方法，可能不具有普适性，仅供参考">
-<meta name="keywords" content="git,putty">
+  <meta name="description" content="使用VB.net时遇到Aarry和Aaarylist及list类型的相互转换问题。Arraylist为集合的子类，数组和集合都可以用来表示容纳了相同数据的一个容器,数组的大小是固定的,集合的大小就是可变的可以任意增删改查。本文简单描述三种类型的区别，并提供相互转换的方法，为一些分不清的同学提供一些参考。">
+<meta name="keywords" content="vb.net">
 <meta property="og:type" content="article">
-<meta property="og:title" content="在相同平台下多账户进行git管理操作问题">
-<meta property="og:url" content="https://tgot.net/blog/2018/0417-git-private-key-user.html">
+<meta property="og:title" content="VB.net中Aarry和Aaarylist及list类型相互转换">
+<meta property="og:url" content="https://tgot.net/blog/2018/0419-vb-net-array-list.html">
 <meta property="og:site_name" content="WQian&#39;S Blog">
-<meta property="og:description" content="遇到问题：网上有多个平台提供源码托管服务，比如国外的github,gitlab,以及国内的gitee,coding等公司，如果每个平台注册一个账号，使git项目管理，只要把ssh产生的公匙分别配置到各个托管平台提供的设置ssh公匙上就可以了。但是有的时候可能出于比如躲避女友删除等很多原因，需要在一个平台上注册多个账户，那么怎么处理这种问题呢？下面我给出了自己的解决方法，可能不具有普适性，仅供参考">
+<meta property="og:description" content="使用VB.net时遇到Aarry和Aaarylist及list类型的相互转换问题。Arraylist为集合的子类，数组和集合都可以用来表示容纳了相同数据的一个容器,数组的大小是固定的,集合的大小就是可变的可以任意增删改查。本文简单描述三种类型的区别，并提供相互转换的方法，为一些分不清的同学提供一些参考。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-04-18T18:50:01.272Z">
+<meta property="og:updated_time" content="2018-04-19T10:15:14.497Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="在相同平台下多账户进行git管理操作问题">
-<meta name="twitter:description" content="遇到问题：网上有多个平台提供源码托管服务，比如国外的github,gitlab,以及国内的gitee,coding等公司，如果每个平台注册一个账号，使git项目管理，只要把ssh产生的公匙分别配置到各个托管平台提供的设置ssh公匙上就可以了。但是有的时候可能出于比如躲避女友删除等很多原因，需要在一个平台上注册多个账户，那么怎么处理这种问题呢？下面我给出了自己的解决方法，可能不具有普适性，仅供参考">
+<meta name="twitter:title" content="VB.net中Aarry和Aaarylist及list类型相互转换">
+<meta name="twitter:description" content="使用VB.net时遇到Aarry和Aaarylist及list类型的相互转换问题。Arraylist为集合的子类，数组和集合都可以用来表示容纳了相同数据的一个容器,数组的大小是固定的,集合的大小就是可变的可以任意增删改查。本文简单描述三种类型的区别，并提供相互转换的方法，为一些分不清的同学提供一些参考。">
 
 
 
@@ -133,7 +133,7 @@
 
 
 
-  <link rel="canonical" href="https://tgot.net/blog/2018/0417-git-private-key-user.html"/>
+  <link rel="canonical" href="https://tgot.net/blog/2018/0419-vb-net-array-list.html"/>
 
 
 
@@ -143,7 +143,7 @@
   };
 </script>
 
-  <title>在相同平台下多账户进行git管理操作问题 | WQian'S Blog</title>
+  <title>VB.net中Aarry和Aaarylist及list类型相互转换 | WQian'S Blog</title>
   
 
 
@@ -348,7 +348,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://tgot.net/blog/2018/0417-git-private-key-user.html">
+    <link itemprop="mainEntityOfPage" href="https://tgot.net/blog/2018/0419-vb-net-array-list.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="WQian">
@@ -365,7 +365,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">在相同平台下多账户进行git管理操作问题
+          <h2 class="post-title" itemprop="name headline">VB.net中Aarry和Aaarylist及list类型相互转换
               
             
           </h2>
@@ -390,24 +390,12 @@
                 
               
 
-              <time title="创建时间：2018-04-17 09:43:09" itemprop="dateCreated datePublished" datetime="2018-04-17T09:43:09+08:00">2018-04-17</time>
+              <time title="创建时间：2018-04-19 17:03:48 / 修改时间：18:15:14" itemprop="dateCreated datePublished" datetime="2018-04-19T17:03:48+08:00">2018-04-19</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-04-19 02:50:01" itemprop="dateModified" datetime="2018-04-19T02:50:01+08:00">2018-04-19</time>
               
             
           </span>
@@ -424,7 +412,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/daybreak/" itemprop="url" rel="index"><span itemprop="name">daybreak</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/vb-net/" itemprop="url" rel="index"><span itemprop="name">vb.net</span></a></span>
 
                 
                 
@@ -439,8 +427,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/blog/2018/0417-git-private-key-user.html#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/blog/2018/0417-git-private-key-user.html" itemprop="commentCount"></span>
+                <a href="/blog/2018/0419-vb-net-array-list.html#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/blog/2018/0419-vb-net-array-list.html" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -469,40 +457,26 @@
 
       
         <blockquote>
-<p>遇到问题：网上有多个平台提供源码托管服务，比如国外的<a href="https://github.com" target="_blank" rel="noopener">github</a>,<a href="https://gitlab.com" target="_blank" rel="noopener">gitlab</a>,以及国内的<a href="https://gitee.com/" target="_blank" rel="noopener">gitee</a>,<a href="https://coding.net" target="_blank" rel="noopener">coding</a>等公司，如果每个平台注册一个账号，使git项目管理，只要把ssh产生的公匙分别配置到各个托管平台提供的设置ssh公匙上就可以了。但是有的时候可能出于比如躲避女友删除等很多原因，需要在一个平台上注册多个账户，那么怎么处理这种问题呢？下面我给出了自己的解决方法，可能不具有普适性，仅供参考。</p>
+<p>使用VB.net时遇到Aarry和Aaarylist及list类型的相互转换问题。Arraylist为集合的子类，数组和集合都可以用来表示容纳了相同数据的一个容器,数组的大小是固定的,集合的大小就是可变的可以任意增删改查。本文简单描述三种类型的区别，并提供相互转换的方法，为一些分不清的同学提供一些参考。</p>
 </blockquote>
 <a id="more"></a>
-<h3 id="术语解释"><a href="#术语解释" class="headerlink" title="术语解释"></a>术语解释</h3><ul>
-<li>平台：指源码托管平台，比如网站<a href="https://github.com" target="_blank" rel="noopener">github</a>,<a href="https://gitlab.com" target="_blank" rel="noopener">gitlab</a>,<a href="https://gitee.com/" target="_blank" rel="noopener">gitee</a>,<a href="https://coding.net" target="_blank" rel="noopener">coding</a>等</li>
-<li>账户：某个平台下注册的账户，比如用户名为<code>user</code>,可以在<code>github</code>注册，也可以在<code>gitee</code>注册，也有可能不相同。</li>
-<li>相同平台多账户：在单个平台下注册的多个账户，比如在<code>github</code>上注册了<code>user1</code>,<code>user2</code>,<code>user3</code>等账户</li>
-<li>本文重点解决问题是：<strong>在相同平台下多账户进行git管理操作问题</strong>。</li>
+<h3 id="Aarry数组说明"><a href="#Aarry数组说明" class="headerlink" title="Aarry数组说明"></a>Aarry数组说明</h3><ul>
+<li><p>数组Aarry定义与变量定义差不多。可以用 dim 来定义</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">dim a（100） as integer</span><br><span class="line">dim b(10) as string</span><br><span class="line">dim c as string()</span><br><span class="line">dim d() as integer =&#123;1, 2, 3,4&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>数组分为一维数组、二维数组等。详情查阅<a href="https://blog.csdn.net/departure19841030/article/details/4765276" target="_blank" rel="noopener">参考文献</a></p>
+</li>
 </ul>
-<h3 id="使用git或其他git客户端生成密匙"><a href="#使用git或其他git客户端生成密匙" class="headerlink" title="使用git或其他git客户端生成密匙"></a>使用git或其他git客户端生成密匙</h3><ul>
-<li>我使用的是<a href="http://gitextensions.github.io/" target="_blank" rel="noopener">git extension</a>客户端生成多个密匙。首先打开<code>git extension</code></li>
-<li>点击<code>tool</code>下面的，<code>putty</code>,<code>generate or import key</code></li>
-<li>弹出<code>对话框</code>，点击<code>generate</code>并在上部空白晃动鼠标，等待结束</li>
-<li>点击下部<code>save private key</code>，选择保存路径及文件名，记得后缀为<code>.ppk</code></li>
+<h3 id="ArrayList说明"><a href="#ArrayList说明" class="headerlink" title="ArrayList说明"></a>ArrayList说明</h3><ul>
+<li>ArrayList 是一个数组列表，它位于 System.Collections名称空间下。是集和类型。 与 List相似。</li>
+<li>使用简单例子，源自<a href="http://developer.51cto.com/art/201001/177862.htm" target="_blank" rel="noopener">网络参考</a>。+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">Dim t As New ArrayList()  </span><br><span class="line">t.Add(&quot;Northsnow&quot;)  </span><br><span class="line">Dim d As New Collection  </span><br><span class="line">d.Add(&quot;snow&quot;)  </span><br><span class="line">d.Add(&quot;water&quot;)  </span><br><span class="line">t.AddRange(d)  </span><br><span class="line">For Each aa As String In t  </span><br><span class="line">MsgBox(aa.ToString())  </span><br><span class="line">Next  </span><br><span class="line">&apos;会依次输出：  </span><br><span class="line">&apos;Northsnow  </span><br><span class="line">&apos;snow </span><br><span class="line">&apos;water  </span><br><span class="line">ArrayList的构造器可以接受一个</span><br><span class="line">集和，例子如下：  </span><br><span class="line">Dim d As New Collection  </span><br><span class="line">d.add(&quot;Northsnow&quot;)  </span><br><span class="line">d.Add(&quot;snow&quot;)  </span><br><span class="line">d.Add(&quot;water&quot;)  </span><br><span class="line">Dim t As New ArrayList(d)  </span><br><span class="line">Dim sb As New System.Text</span><br><span class="line">.StringBuilder()  </span><br><span class="line">If t.Count &gt; 0 Then  </span><br><span class="line">sb.Append(&quot;ArrayList中共有成员 &quot;)  </span><br><span class="line">sb.Append(t.Count.ToString)  </span><br><span class="line">sb.Append(&quot; 个&quot;)  </span><br><span class="line">For Each aa As String In t  </span><br><span class="line">sb.AppendLine()  </span><br><span class="line">sb.Append(aa)  </span><br><span class="line">Next  </span><br><span class="line">End If  </span><br><span class="line">MsgBox(sb.ToString)  </span><br><span class="line">&apos;最后输出结果为：  </span><br><span class="line">&apos;ArrayList中共有 成员 3 个  </span><br><span class="line">&apos;Northsnow  </span><br><span class="line">&apos;塞北的雪  </span><br><span class="line">&apos;51CTO</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
-<h3 id="将私匙配置到网站"><a href="#将私匙配置到网站" class="headerlink" title="将私匙配置到网站"></a>将私匙配置到网站</h3><ul>
-<li>将上步中，生成的字符串全选，复制到粘贴板</li>
-<li>打开源码托管网站，用账号A登录，设置到相应ssh设置地方</li>
+<h3 id="list"><a href="#list" class="headerlink" title="list"></a>list</h3><ul>
+<li>list 属于VB.net中的泛型，具体可以参考相关文献</li>
 </ul>
-<h3 id="设置多个账户"><a href="#设置多个账户" class="headerlink" title="设置多个账户"></a>设置多个账户</h3><ul>
-<li>按照第一步中从新生成一个密匙，并保存到路径，同时命名文件名，依然要记得后缀为<code>.ppk</code></li>
-<li>用账号B登录源码托管网站，把第二次生成的密匙设置到ssh设置地方</li>
-<li>这样就解决了问题。</li>
-</ul>
-<h3 id="应用环节"><a href="#应用环节" class="headerlink" title="应用环节"></a>应用环节</h3><ul>
-<li>我运用<code>git extension</code>客户端进行<code>git</code>项目管理，进行<code>pull</code>或<code>push</code>操作。</li>
-<li>多个平台用一个密匙没有问题，如果一个平台多个账户就要选择相应账户对应的密匙。</li>
-</ul>
-<h3 id="可能出现的问题"><a href="#可能出现的问题" class="headerlink" title="可能出现的问题"></a>可能出现的问题</h3><ul>
-<li>一定要记得存放路径，并且后缀为<code>.ppk</code></li>
-<li>客户端产生的密匙如果想导入到<code>git base</code>进行使用，可以查看本站文章。<a href="../2018/0409-git-putty-pub-rsa.html">git客户端和putty客户端共用一个私匙问题</a></li>
-<li>如果生成密匙的时候没有将密匙设置到相应账户，可以打开<code>putty</code>然后加载密匙，之后再将相应密匙设置到平台账户。</li>
-</ul>
-<h2 id="如果文章对你有一丁点的触动，请捐一分钱鼓励作者继续创作吧"><a href="#如果文章对你有一丁点的触动，请捐一分钱鼓励作者继续创作吧" class="headerlink" title="如果文章对你有一丁点的触动，请捐一分钱鼓励作者继续创作吧"></a><strong>如果文章对你有一丁点的触动，请捐一分钱鼓励作者继续创作吧</strong></h2>
+<h3 id="相互转换"><a href="#相互转换" class="headerlink" title="相互转换"></a>相互转换</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">&apos;array-arraylist </span><br><span class="line">Dim MyIntArray() as integer=&#123;1,2,3&#125;</span><br><span class="line"></span><br><span class="line">Dim arrList As ArrayList = ArrayList.Adapter(MyIntArray)</span><br><span class="line"></span><br><span class="line">&apos;array-list </span><br><span class="line">Dim strArr as string()</span><br><span class="line"></span><br><span class="line">Dim listS As New List(Of System.String)(strArr)</span><br><span class="line"></span><br><span class="line">’arraylist-array</span><br><span class="line">Dim listx As New ArrayList()</span><br><span class="line">Dim arrString() As String = DirectCast(listx.ToArray(GetType(String)), String())</span><br><span class="line"></span><br><span class="line">’  array-list</span><br><span class="line">Dim str() As System.String=&#123;&quot;str&quot;, &quot;string&quot;, &quot;abc&quot;&#125;</span><br><span class="line">Dim listS As New List(Of System.String)(str)</span><br><span class="line">’ list- array</span><br><span class="line">Dim listS As New List(Of System.String)()</span><br><span class="line">listS.Add(&quot;str&quot;)</span><br><span class="line">listS.Add(&quot;hello&quot;)</span><br><span class="line">Dim str() As System.String=listS.ToArray()</span><br></pre></td></tr></table></figure>
+<h2 id="如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧"><a href="#如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧" class="headerlink" title="如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧"></a><strong>如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧</strong></h2>
       
     </div>
 
@@ -523,7 +497,7 @@
     <strong>本文作者： </strong>WQian</li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://tgot.net/blog/2018/0417-git-private-key-user.html" title="在相同平台下多账户进行git管理操作问题">https://tgot.net/blog/2018/0417-git-private-key-user.html</a>
+    <a href="https://tgot.net/blog/2018/0419-vb-net-array-list.html" title="VB.net中Aarry和Aaarylist及list类型相互转换">https://tgot.net/blog/2018/0419-vb-net-array-list.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC 4.0</a> 许可协议。转载请注明出处！</li>
@@ -536,9 +510,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/git/" rel="tag"># git</a>
-          
-            <a href="/tags/putty/" rel="tag"># putty</a>
+            <a href="/tags/vb-net/" rel="tag"># vb.net</a>
           
         </div>
       
@@ -566,8 +538,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/blog/2018/0416-index0.html" rel="next" title="Connect to coding sql database">
-                <i class="fa fa-chevron-left"></i> Connect to coding sql database
+              <a href="/blog/2018/0419-index.html" rel="next" title="解决Sublime打开txt文本文件乱码问题">
+                <i class="fa fa-chevron-left"></i> 解决Sublime打开txt文本文件乱码问题
               </a>
             
           </div>
@@ -575,10 +547,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/blog/2018/0417-coding-webide-hexo-next.html" rel="prev" title="Coding Webide搭建hexo博客next主题">
-                Coding Webide搭建hexo博客next主题 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -818,7 +786,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#术语解释"><span class="nav-number">1.</span> <span class="nav-text">术语解释</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#使用git或其他git客户端生成密匙"><span class="nav-number">2.</span> <span class="nav-text">使用git或其他git客户端生成密匙</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#将私匙配置到网站"><span class="nav-number">3.</span> <span class="nav-text">将私匙配置到网站</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设置多个账户"><span class="nav-number">4.</span> <span class="nav-text">设置多个账户</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#应用环节"><span class="nav-number">5.</span> <span class="nav-text">应用环节</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#可能出现的问题"><span class="nav-number">6.</span> <span class="nav-text">可能出现的问题</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#如果文章对你有一丁点的触动，请捐一分钱鼓励作者继续创作吧"><span class="nav-number"></span> <span class="nav-text">如果文章对你有一丁点的触动，请捐一分钱鼓励作者继续创作吧</span></a></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Aarry数组说明"><span class="nav-number">1.</span> <span class="nav-text">Aarry数组说明</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ArrayList说明"><span class="nav-number">2.</span> <span class="nav-text">ArrayList说明</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#list"><span class="nav-number">3.</span> <span class="nav-text">list</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#相互转换"><span class="nav-number">4.</span> <span class="nav-text">相互转换</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧"><span class="nav-number"></span> <span class="nav-text">如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧</span></a></div>
             
 
           </div>
