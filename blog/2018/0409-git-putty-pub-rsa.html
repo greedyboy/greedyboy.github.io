@@ -114,7 +114,7 @@
 
 
   <meta name="description" content="问题：在进行github公匙管理的时候，希望完成共用一个钥匙的问题。因为gitbase自己可以产生，我使用的putty客户端也可以产生，本文就是将两者合为一个而进行使用。共同使用putty产生的钥匙。   注：id_rsa是ssh的私钥，id_rsa.pub是对应的公钥，以上两个是OpenSSH用的格式，ppk文件中同时包含了公钥和私钥，多见于putty客户端。id_rsa和ppk文件是可以互相">
-<meta name="keywords" content="git,putty,github,id_rsa,id_rsa.pub">
+<meta name="keywords" content="git,github,putty,id_rsa,id_rsa.pub">
 <meta property="og:type" content="article">
 <meta property="og:title" content="git客户端和putty客户端共用一个私匙问题">
 <meta property="og:url" content="https://tgot.net/blog/2018/0409-git-putty-pub-rsa.html">
@@ -535,9 +535,9 @@
           
             <a href="/tags/git/" rel="tag"># git</a>
           
-            <a href="/tags/putty/" rel="tag"># putty</a>
-          
             <a href="/tags/github/" rel="tag"># github</a>
+          
+            <a href="/tags/putty/" rel="tag"># putty</a>
           
             <a href="/tags/id-rsa/" rel="tag"># id_rsa</a>
           
@@ -1446,7 +1446,7 @@
           transition: opacity .3s ease-in-out;
           opacity: 0;
           padding: 2px 6px;
-          position: fixed;
+          position: absolute;
           right: 4px;
           top: 8px;
       }
@@ -1457,7 +1457,7 @@
       }
 
       .highlight-wrap {
-          transform: translateZ(0);
+          position: relative;
       }
   </style>
   <script>

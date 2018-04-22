@@ -31,8 +31,8 @@
         <category>软件列表</category>
       </categories>
       <tags>
-        <tag>coding</tag>
         <tag>hexo</tag>
+        <tag>coding</tag>
         <tag>webide</tag>
         <tag>next</tag>
       </tags>
@@ -171,8 +171,8 @@
       </categories>
       <tags>
         <tag>git</tag>
-        <tag>putty</tag>
         <tag>github</tag>
+        <tag>putty</tag>
         <tag>id_rsa</tag>
         <tag>id_rsa.pub</tag>
       </tags>
