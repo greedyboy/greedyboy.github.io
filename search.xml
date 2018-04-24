@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[hexo博客中使用latex数学公式]]></title>
+    <url>%2Fblog%2F2018%2F0424-index.html</url>
+    <content type="text"><![CDATA[博客中使用数学公式，来书写相关的科技论文以及平常学习记录。有必要进行相关的学习，本文将不定期更新来展开学习。内容包括latex中公式的语法学习，将循序渐进的展开。 博客中展示公式设置 在博客主题配置_config.yml中如下设置： 12345678910111213engine: mathjax #engine: katex # hexo-rendering-pandoc (or hexo-renderer-kramed) needed to full MathJax support. mathjax: # Use 2.7.1 as default, jsdelivr as default CDN, works everywhere even in China cdn: //cdn.jsdelivr.net/npm/mathjax@2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML # For newMathJax CDN (cdnjs.cloudflare.com) with fallback to oldMathJax (cdn.mathjax.org). #cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML # For direct link to MathJax.js with CloudFlare CDN (cdnjs.cloudflare.com). #cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML # For automatic detect latest version link to MathJax.js and get from Bootcss. #cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML 在文章中如果想展现公式，请在文章头部添加mathjax: true latex语法公式学习The Gamma function satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral $$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.$$ 学习参考文献 https://www.cnblogs.com/linxd/p/4955530.html https://blog.csdn.net/ethmery/article/details/50670297 Markdow在线书写 如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧]]></content>
+      <categories>
+        <category>daybreak</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>latex</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[VB.net中Aarry和Aaarylist及list类型相互转换]]></title>
     <url>%2Fblog%2F2018%2F0419-vb-net-array-list.html</url>
     <content type="text"><![CDATA[使用VB.net时遇到Aarry和Aaarylist及list类型的相互转换问题。Arraylist为集合的子类，数组和集合都可以用来表示容纳了相同数据的一个容器,数组的大小是固定的,集合的大小就是可变的可以任意增删改查。本文简单描述三种类型的区别，并提供相互转换的方法，为一些分不清的同学提供一些参考。 Aarry数组说明 数组Aarry定义与变量定义差不多。可以用 dim 来定义 1234dim a（100） as integerdim b(10) as stringdim c as string()dim d() as integer =&#123;1, 2, 3,4&#125; 数组分为一维数组、二维数组等。详情查阅参考文献 ArrayList说明 ArrayList 是一个数组列表，它位于 System.Collections名称空间下。是集和类型。 与 List相似。 使用简单例子，源自网络参考。+12345678910111213141516171819202122232425262728293031323334353637Dim t As New ArrayList() t.Add(&quot;Northsnow&quot;) Dim d As New Collection d.Add(&quot;snow&quot;) d.Add(&quot;water&quot;) t.AddRange(d) For Each aa As String In t MsgBox(aa.ToString()) Next &apos;会依次输出： &apos;Northsnow &apos;snow &apos;water ArrayList的构造器可以接受一个集和，例子如下： Dim d As New Collection d.add(&quot;Northsnow&quot;) d.Add(&quot;snow&quot;) d.Add(&quot;water&quot;) Dim t As New ArrayList(d) Dim sb As New System.Text.StringBuilder() If t.Count &gt; 0 Then sb.Append(&quot;ArrayList中共有成员 &quot;) sb.Append(t.Count.ToString) sb.Append(&quot; 个&quot;) For Each aa As String In t sb.AppendLine() sb.Append(aa) Next End If MsgBox(sb.ToString) &apos;最后输出结果为： &apos;ArrayList中共有 成员 3 个 &apos;Northsnow &apos;塞北的雪 &apos;51CTO list list 属于VB.net中的泛型，具体可以参考相关文献 相互转换12345678910111213141516171819202122&apos;array-arraylist Dim MyIntArray() as integer=&#123;1,2,3&#125;Dim arrList As ArrayList = ArrayList.Adapter(MyIntArray)&apos;array-list Dim strArr as string()Dim listS As New List(Of System.String)(strArr)’arraylist-arrayDim listx As New ArrayList()Dim arrString() As String = DirectCast(listx.ToArray(GetType(String)), String())’ array-listDim str() As System.String=&#123;&quot;str&quot;, &quot;string&quot;, &quot;abc&quot;&#125;Dim listS As New List(Of System.String)(str)’ list- arrayDim listS As New List(Of System.String)()listS.Add(&quot;str&quot;)listS.Add(&quot;hello&quot;)Dim str() As System.String=listS.ToArray() 如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧]]></content>
