@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tgot.net/"/>
-  <updated>2018-04-25T07:16:13.770Z</updated>
+  <updated>2018-04-25T07:19:57.147Z</updated>
   <id>https://tgot.net/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://tgot.net/blog/2018/0425-markdown-grammer-source.html"/>
     <id>https://tgot.net/blog/2018/0425-markdown-grammer-source.html</id>
     <published>2018-04-25T06:45:37.000Z</published>
-    <updated>2018-04-25T07:16:13.770Z</updated>
+    <updated>2018-04-25T07:19:57.147Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>MarkDown作为一种轻型的标记语言，越来越广泛的应用于各种文字的传播，尤其是在广大的码农中间，应用相当广泛，并且随着写作平台引入Markdow书写规范，使其在文学圈等方面也逐渐绽放光彩。这种让人抛弃格式而专注于写作的模式，也让我越来越入迷。甚至想着只要和文字代码相关的工作，都要用MarkDown来书写。Markdown由于其至简的风格而广受传播，但也是因为其至简，使得其在渲染的时候出现一些无法实现个性设置的矛盾，因此有些平台推出了扩增Markdown语法的功能，又由于各个厂商之间没有更进一步的达成共识，使得Markdown在某些高级语法方面存在一些不兼容。但是对于我而言，我偏向于尽可能的少使用多于原生态的语法规则，因为这样可以保证文字的兼容性。更何况，很多新增的语法，使得Markdown偏离其至简的原则。当然，对于这种问题，是仁者见仁 ，智者见智的问题。不求苟同。此篇文章将作为作者一个学习Markdown语法的一个笔记，以及搜集相关资源的存档，会不定期更新。大致包涵：Markdown语法，Windows平台Markdown编辑软件，Markdown在线编辑器，html转Markdown工具。</p></blockquote><a id="more"></a><h3 id="Markdown语法"><a href="#Markdown语法" class="headerlink" title="Markdown语法"></a>Markdown语法</h3><h3 id="Windows平台Markdown编辑软件"><a href="#Windows平台Markdown编辑软件" class="headerlink" title="Windows平台Markdown编辑软件"></a>Windows平台Markdown编辑软件</h3><ul><li>Sublime text3配合相关插件实现</li><li><h3 id="Markdown在线编辑器"><a href="#Markdown在线编辑器" class="headerlink" title="Markdown在线编辑器"></a>Markdown在线编辑器</h3></li><li><a href="http://mahua.jser.me/" target="_blank" rel="noopener">http://mahua.jser.me/</a></li></ul><h3 id="html转Markdown工具"><a href="#html转Markdown工具" class="headerlink" title="html转Markdown工具"></a>html转Markdown工具</h3><h3 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h3><ul><li><h2 id="如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧"><a href="#如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧" class="headerlink" title="如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧"></a><strong>如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧</strong></h2></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>MarkDown作为一种轻型的标记语言，越来越广泛的应用于各种文字的传播，尤其是在广大的码农中间，应用相当广泛，并且随着写作平台引入Markdow书写规范，使其在文学圈等方面也逐渐绽放光彩。这种让人抛弃格式而专注于写作的模式，也让我越来越入迷。甚至想着只要和文字代码相关的工作，都要用MarkDown来书写。Markdown由于其至简的风格而广受传播，但也是因为其至简，使得其在渲染的时候出现一些无法实现个性设置的矛盾，因此有些平台推出了扩增Markdown语法的功能，又由于各个厂商之间没有更进一步的达成共识，使得Markdown在某些高级语法方面存在一些不兼容。但是对于我而言，我偏向于尽可能的少使用多于原生态的语法规则，因为这样可以保证文字的兼容性。更何况，很多新增的语法，使得Markdown偏离其至简的原则。当然，对于这种问题，是仁者见仁 ，智者见智的问题。不求苟同。此篇文章将作为作者一个学习Markdown语法的一个笔记，以及搜集相关资源的存档，会不定期更新。大致包涵：Markdown语法，Windows平台Markdown编辑软件，Markdown在线编辑器，html转Markdown工具。</p></blockquote><a id="more"></a><h3 id="Markdown语法"><a href="#Markdown语法" class="headerlink" title="Markdown语法"></a>Markdown语法</h3><h3 id="Windows平台Markdown编辑软件"><a href="#Windows平台Markdown编辑软件" class="headerlink" title="Windows平台Markdown编辑软件"></a>Windows平台Markdown编辑软件</h3><ul><li>Sublime text3配合相关插件实现</li></ul><h3 id="Markdown在线编辑器"><a href="#Markdown在线编辑器" class="headerlink" title="Markdown在线编辑器"></a>Markdown在线编辑器</h3><ul><li><a href="http://mahua.jser.me/" target="_blank" rel="noopener">http://mahua.jser.me/</a></li></ul><h3 id="html转Markdown工具"><a href="#html转Markdown工具" class="headerlink" title="html转Markdown工具"></a>html转Markdown工具</h3><h3 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h3><ul><li><h2 id="如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧"><a href="#如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧" class="headerlink" title="如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧"></a><strong>如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧</strong></h2></li></ul>]]></content>
     
     <summary type="html">
     
