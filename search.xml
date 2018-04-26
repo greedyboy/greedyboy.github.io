@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[图标资源网站]]></title>
+    <url>%2Fblog%2F2018%2F0426-ico-converter-address.html</url>
+    <content type="text"><![CDATA[本页面主要搜集网络上常用的图片，包括ico,svg,png等好的格式的网址，或者在线转换等方面的资源，会长期更新。 在线svg图标及转换https://icomoon.io/ 可以导出svg格式，以及png格式 可以转换本地svg格式 https://cn.office-converter.com/ 不只是图片格式，各种文件格式也能转换 图标下载站点 https://findicons.com/ https://www.iconfinder.com/ 特别多的图片https://materialdesignicons.com/ 比较多，各种格式https://www.easyicon.net/ 在线制作http://www.zhangxinxu.com/sp/svg/ https://c.runoob.com/more/svgeditor/有一款字体非常漂亮，生成之后最好导出png,因为其他网站可能没有这种字体 http://www.zhangxinxu.com/sp/svg/功能多，但是我导出文件有问题 图片转svghttps://www.bejson.com/convert/image_to_svg/ 转换工具https://convertio.co/zh/vector-converter/]]></content>
+      <categories>
+        <category>软件列表</category>
+      </categories>
+      <tags>
+        <tag>ico</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[我不是一个程序员]]></title>
+    <url>%2Fblog%2F2018%2F0425-index.html</url>
+    <content type="text"><![CDATA[诚然，我不是一个程序员，我却像一个好奇的小孩子一样，对于任何新鲜的事物都要尝试一下，渐渐将时间消磨在了一些偏离主线的事物上面，最终对于主要目标却没有任何的益处。对于这样的状态是可怕，也是亟待改变的。 网上看到有工具癖一说，大致是把时间都消磨在了工具上面，而没有专注于目标本身。感觉跟自己的情况很贴合。其实自己可能所缺少的就是专注。 好了，是时候思考一下和改变了。首先明确一下自己的角色，尽管开发过几个网页，尽管自己会一点编程，开发过几个小东西，但是要知道，编程并不是我的业务专长，我并不是一个程序员，也不可能成为一个入流的程序员，我要做的就只是要让我了解的这点编程知识，服务于我的专长，或者是未来的专长。 我不是一个程序员,我也不可能成为一个程序员,唯有持之以恒的努力，才能散发出无尽的能量。 做好专注，做好规划，做好执行。$$\leftarrow\;It\;will\;be\;fine.\;\rightarrow\E=mc^2\\Uparrow\致敬爱因斯坦$$]]></content>
+      <categories>
+        <category>daybreak</category>
+      </categories>
+      <tags>
+        <tag>diary</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[形形色色的网络世界]]></title>
     <url>%2Fblog%2F2018%2F0425-people-coming-from-world-in-the-net.html</url>
     <content type="text"><![CDATA[近来常常翻阅其他人的博客，看着文字，看着每个对于自己的剖析，看着这个世界上跳跃着的每一个元素，不禁长问？你和我的位置又在哪里？ 有看到，早早辍学，却迷恋于网络，闲暇之余，在网上发布着自己每日的学习心得，抒发着奋斗要强的气息。 有看到，开间农舍客栈，茶余饭后，拿本英语来学，捣鼓点代码来写，生活奋斗的迹象，散发于博客。 有看到，小小高中生，去用键盘敲击了一个个科技小作品，一边书写着abcd奋战在高考边缘，一边又和众多网友分享者自己项目经验，学习心得和书单，的确，长长的书单。 有看到，漂洋过海去国外，年纪小小却经验老到，思虑缜密，目标清晰，日程安排满满当当，实时分享着自己的成就与感悟。 有看到，穿梭于国与国之间的旅客，他们在用图片散发着工作的辛苦，与所得的快乐。 有看到，高深的研究学者在撰写着他们心中最美丽的方程。 有奋斗，有位置，有目标，有计划，有心得。。。。。 网络的世界，没有界限，只要你想，只要你努力，没有人可以阻挡你。这里没有种族的门槛，这里没有国别的歧视，这里没有文凭的限制，只要你愿意进来，他就会接纳你，只要你有能力，只要你有一技之长，你都可以成为被人羡慕的对象，因为这里，是你的才华吸引着他人。 反之，这里会让碌碌无为的人沉迷，沉迷于他人的成功，沉迷于他人的奋斗，沉迷于自我想象和无所作为的困苦，脱离了这些，才可以升华。 所谓临渊羡鱼，不如结网而渔。 这就是我所要迷迷糊糊表达的，临渊羡鱼，不如结网而渔。 如果文章对你有一丁点的触动，赏一分钱鼓励一下作者吧]]></content>
@@ -91,8 +113,8 @@
         <category>daybreak</category>
       </categories>
       <tags>
-        <tag>coding</tag>
         <tag>code</tag>
+        <tag>coding</tag>
       </tags>
   </entry>
   <entry>
@@ -256,8 +278,8 @@
         <category>daybreak</category>
       </categories>
       <tags>
-        <tag>HexoMotor</tag>
         <tag>diary</tag>
+        <tag>HexoMotor</tag>
       </tags>
   </entry>
   <entry>

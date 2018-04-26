@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tgot.net/"/>
-  <updated>2018-04-25T12:12:30.621Z</updated>
+  <updated>2018-04-26T02:27:24.787Z</updated>
   <id>https://tgot.net/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>图标资源网站</title>
+    <link href="https://tgot.net/blog/2018/0426-ico-converter-address.html"/>
+    <id>https://tgot.net/blog/2018/0426-ico-converter-address.html</id>
+    <published>2018-04-26T00:31:00.000Z</published>
+    <updated>2018-04-26T02:27:24.787Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本页面主要搜集网络上常用的图片，包括ico,svg,png等好的格式的网址，或者在线转换等方面的资源，会长期更新。</p></blockquote><a id="more"></a><h3 id="在线svg图标及转换"><a href="#在线svg图标及转换" class="headerlink" title="在线svg图标及转换"></a>在线svg图标及转换</h3><h4 id="https-icomoon-io"><a href="#https-icomoon-io" class="headerlink" title="https://icomoon.io/"></a><a href="https://icomoon.io/" target="_blank" rel="noopener">https://icomoon.io/</a></h4><ul><li>可以导出svg格式，以及png格式</li><li>可以转换本地svg格式</li></ul><h4 id="https-cn-office-converter-com"><a href="#https-cn-office-converter-com" class="headerlink" title="https://cn.office-converter.com/"></a><a href="https://cn.office-converter.com/" target="_blank" rel="noopener">https://cn.office-converter.com/</a></h4><ul><li>不只是图片格式，各种文件格式也能转换</li></ul><h3 id="图标下载站点"><a href="#图标下载站点" class="headerlink" title="图标下载站点"></a>图标下载站点</h3><ul><li><a href="https://findicons.com/" target="_blank" rel="noopener">https://findicons.com/</a></li><li><a href="https://www.iconfinder.com/" target="_blank" rel="noopener">https://www.iconfinder.com/</a></li><li>特别多的图片<a href="https://materialdesignicons.com/" target="_blank" rel="noopener">https://materialdesignicons.com/</a></li><li>比较多，各种格式<a href="https://www.easyicon.net/" target="_blank" rel="noopener">https://www.easyicon.net/</a></li><li>在线制作<a href="http://www.zhangxinxu.com/sp/svg/" target="_blank" rel="noopener">http://www.zhangxinxu.com/sp/svg/</a></li><li><a href="https://c.runoob.com/more/svgeditor/" target="_blank" rel="noopener">https://c.runoob.com/more/svgeditor/</a>有一款字体非常漂亮，生成之后最好导出png,因为其他网站可能没有这种字体</li><li><a href="http://www.zhangxinxu.com/sp/svg/" target="_blank" rel="noopener">http://www.zhangxinxu.com/sp/svg/</a>功能多，但是我导出文件有问题</li><li>图片转svg<a href="https://www.bejson.com/convert/image_to_svg/" target="_blank" rel="noopener">https://www.bejson.com/convert/image_to_svg/</a></li><li>转换工具<a href="https://convertio.co/zh/vector-converter/" target="_blank" rel="noopener">https://convertio.co/zh/vector-converter/</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;本页面主要搜集网络上常用的图片，包括ico,svg,png等好的格式的网址，或者在线转换等方面的资源，会长期更新。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="软件列表" scheme="https://tgot.net/categories/%E8%BD%AF%E4%BB%B6%E5%88%97%E8%A1%A8/"/>
+    
+    
+      <category term="ico" scheme="https://tgot.net/tags/ico/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我不是一个程序员</title>
+    <link href="https://tgot.net/blog/2018/0425-index.html"/>
+    <id>https://tgot.net/blog/2018/0425-index.html</id>
+    <published>2018-04-25T12:22:03.000Z</published>
+    <updated>2018-04-25T12:57:34.258Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>诚然，我不是一个程序员，我却像一个好奇的小孩子一样，对于任何新鲜的事物都要尝试一下，渐渐将时间消磨在了一些偏离主线的事物上面，最终对于主要目标却没有任何的益处。对于这样的状态是可怕，也是亟待改变的。</p></blockquote><a id="more"></a><p>网上看到有<code>工具癖</code>一说，大致是把时间都消磨在了工具上面，而没有专注于目标本身。感觉跟自己的情况很贴合。其实自己可能所缺少的就是专注。</p><p>好了，是时候思考一下和改变了。首先明确一下自己的角色，尽管开发过几个网页，尽管自己会一点编程，开发过几个小东西，但是要知道，编程并不是我的业务专长，我并不是一个程序员，也不可能成为一个入流的程序员，我要做的就只是要让我了解的这点编程知识，服务于我的专长，或者是未来的专长。</p><p>我不是一个程序员,我也不可能成为一个程序员,唯有持之以恒的努力，才能散发出无尽的能量。</p><p>做好专注，做好规划，做好执行。<br>$$<br>\leftarrow\;It\;will\;be\;fine.\;\rightarrow\<br>E=mc^2\<br>\Uparrow\<br>致敬爱因斯坦<br>$$</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;诚然，我不是一个程序员，我却像一个好奇的小孩子一样，对于任何新鲜的事物都要尝试一下，渐渐将时间消磨在了一些偏离主线的事物上面，最终对于主要目标却没有任何的益处。对于这样的状态是可怕，也是亟待改变的。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="daybreak" scheme="https://tgot.net/categories/daybreak/"/>
+    
+    
+      <category term="diary" scheme="https://tgot.net/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>形形色色的网络世界</title>
@@ -215,9 +263,9 @@
       <category term="daybreak" scheme="https://tgot.net/categories/daybreak/"/>
     
     
-      <category term="coding" scheme="https://tgot.net/tags/coding/"/>
-    
       <category term="code" scheme="https://tgot.net/tags/code/"/>
+    
+      <category term="coding" scheme="https://tgot.net/tags/coding/"/>
     
   </entry>
   
@@ -390,9 +438,9 @@
     <link href="https://tgot.net/blog/2018/0410-blog-orientations.html"/>
     <id>https://tgot.net/blog/2018/0410-blog-orientations.html</id>
     <published>2018-04-10T01:51:53.000Z</published>
-    <updated>2018-04-10T07:04:35.596Z</updated>
+    <updated>2018-04-25T12:19:41.690Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>关于本博客的定位，是时候要思考一下了。</p></blockquote><a id="more"></a><blockquote><p>涉网多年，建站多次，最后基本都无疾而终，可能自己的性格以及做事的风格导致其恶果。这次又重新折腾起来的原因是大概受一些博友的影响，也相对自己行为习惯做一个正确的引导和监督。</p></blockquote><h3 id="明确定位"><a href="#明确定位" class="headerlink" title="明确定位"></a>明确定位</h3><ul><li>梳理自己解决问题的思路和方法。自己往往解决完一个问题后，疏于总结，最后再遇到同样问题的时候，又要重新开始，为避免在同一问题上做重复工作，总结还是很有必要的，期望日积月累，形成自己的技术库。</li><li>发表自己对于问题的看法。自己也要尝试着有态度，有深度。</li><li>网摘录好文。站在巨人的肩上，我可以看得更远。</li><li>沟通交流。三人行，必有我师。</li></ul><h3 id="拒绝发表"><a href="#拒绝发表" class="headerlink" title="拒绝发表"></a>拒绝发表</h3><ul><li>流水日志：建站目的之一最终还是沦落为首要抛弃对象。</li><li>有关个人、朋友隐私的信息。大数据时代，显然隐私已成为笑谈，作为一个社会人，我即便不能逃避别有用心之人的窥探，也要在他们行凶的路上提供一些障碍，尽管我可能最终不能阻止他们得逞，但是也要尽力去延缓他们的步伐。</li><li>不实言论。拒绝虚假。</li><li>不适言论。</li></ul><p><img src="/image/2018/pay.jpg =60" alt="图自网络，侵权必删"></p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>关于本博客的定位，是时候要思考一下了。</p></blockquote><a id="more"></a><blockquote><p>涉网多年，建站多次，最后基本都无疾而终，可能自己的性格以及做事的风格导致其恶果。这次又重新折腾起来的原因是大概受一些博友的影响，也相对自己行为习惯做一个正确的引导和监督。</p></blockquote><h3 id="明确定位"><a href="#明确定位" class="headerlink" title="明确定位"></a>明确定位</h3><ul><li>梳理自己解决问题的思路和方法。自己往往解决完一个问题后，疏于总结，最后再遇到同样问题的时候，又要重新开始，为避免在同一问题上做重复工作，总结还是很有必要的，期望日积月累，形成自己的技术库。</li><li>发表自己对于问题的看法。自己也要尝试着有态度，有深度。</li><li>网摘录好文。站在巨人的肩上，我可以看得更远。</li><li>沟通交流。三人行，必有我师。</li></ul><h3 id="拒绝发表"><a href="#拒绝发表" class="headerlink" title="拒绝发表"></a>拒绝发表</h3><ul><li>流水日志：建站目的之一最终还是沦落为首要抛弃对象。</li><li>有关个人、朋友隐私的信息。大数据时代，显然隐私已成为笑谈，作为一个社会人，我即便不能逃避别有用心之人的窥探，也要在他们行凶的路上提供一些障碍，尽管我可能最终不能阻止他们得逞，但是也要尽力去延缓他们的步伐。</li><li>不实言论。拒绝虚假。</li><li>不适言论。</li></ul>]]></content>
     
     <summary type="html">
     
@@ -498,67 +546,6 @@
       <category term="diary" scheme="https://tgot.net/tags/diary/"/>
     
       <category term="虐债" scheme="https://tgot.net/tags/%E8%99%90%E5%80%BA/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>站点更新小结V18.04.10</title>
-    <link href="https://tgot.net/blog/2018/0408-go-to-work.html"/>
-    <id>https://tgot.net/blog/2018/0408-go-to-work.html</id>
-    <published>2018-04-08T05:00:21.000Z</published>
-    <updated>2018-04-18T18:50:27.323Z</updated>
-    
-    <content type="html"><![CDATA[<p>Good Good Study,Day Day UP!</p><h2 id="Reflection"><a href="#Reflection" class="headerlink" title="Reflection"></a>Reflection</h2><ul><li>首先要有内容，才需要建立博客，不然有点本末倒置的味道</li><li>由此耽误了很多的工作，暂时告一段落</li><li>1/40程序员，真的不着调</li><li>把自己的主业搞起来，才ok</li><li>有时间的话尝试是可以的，但是不能如此的分心啊<a id="more"></a></li></ul><h2 id="Done"><a href="#Done" class="headerlink" title="Done"></a>Done</h2><ul><li>记录hexo+next博客配置</li><li>至此暂时告别一个段落<br>hexo+next配置内容设置如下</li></ul><h3 id="网站配置-config-yml设置内容"><a href="#网站配置-config-yml设置内容" class="headerlink" title="网站配置_config.yml设置内容"></a><code>网站配置_config.yml</code>设置内容</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">title: WQian&apos;S Blog</span><br><span class="line">subtitle: Working For Daybreak</span><br><span class="line">...</span><br><span class="line">author: WQian</span><br><span class="line">language: zh-CN</span><br><span class="line">timezone: Asia/Shanghai</span><br><span class="line">...</span><br><span class="line"># URL</span><br><span class="line">## If your site is put in a subdirectory, set url as &apos;http://yoursite.com/child&apos; and root as &apos;/child/&apos;</span><br><span class="line">url: https://tgot.net</span><br><span class="line">root: /</span><br><span class="line">permalink: blog/:year:month:day-:urlname.html</span><br><span class="line">permalink_defaults:</span><br><span class="line">urlname: index</span><br><span class="line">...</span><br><span class="line">theme: next-reloaded</span><br><span class="line">...</span><br><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:greedyboy/greedyboy.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><h3 id="主题配置-config-yml设置内容"><a href="#主题配置-config-yml设置内容" class="headerlink" title="主题配置_config.yml设置内容"></a><code>主题配置_config.yml</code>设置内容</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br></pre></td><td class="code"><pre><span class="line">footer:</span><br><span class="line">  # Specify the date when the site was setup.</span><br><span class="line">  # If not defined, current year will be used.</span><br><span class="line">  since: 2018</span><br><span class="line">....</span><br><span class="line">    # If not defined, will be used `author` from Hexo main config.</span><br><span class="line">  copyright:</span><br><span class="line">  # -------------------------------------------------------------</span><br><span class="line">  powered:</span><br><span class="line">    # Hexo link (Powered by Hexo).</span><br><span class="line">    enable: true</span><br><span class="line">    # Version info of Hexo after Hexo link (vX.X.X).</span><br><span class="line">    version: false</span><br><span class="line"></span><br><span class="line">  theme:</span><br><span class="line">    # Theme &amp; scheme info link (Theme - NexT.scheme).</span><br><span class="line">    enable: true</span><br><span class="line">    # Version info of NexT after scheme info (vX.X.X).</span><br><span class="line">    version: false</span><br><span class="line">....</span><br><span class="line">  menu:</span><br><span class="line">  home: / || home</span><br><span class="line">  about: /about/ || user</span><br><span class="line">  tags: /tags/ || tags</span><br><span class="line">  categories: /categories/ || th</span><br><span class="line">  archives: /archives/ || archive</span><br><span class="line">  #schedule: /schedule/ || calendar</span><br><span class="line">  #sitemap: /sitemap.xml || sitemap</span><br><span class="line">  #commonweal: /404/ || heartbeat</span><br><span class="line">  ....</span><br><span class="line">  scheme: Pisces</span><br><span class="line">  ...</span><br><span class="line">  social:</span><br><span class="line">  GitHub: https://github.com/yourname || github</span><br><span class="line">  E-Mail: mailto:admin@tgot.net || envelope</span><br><span class="line">  ....</span><br><span class="line">  # Reward</span><br><span class="line">reward_comment: Thanks for your work.</span><br><span class="line">wechatpay: /images/wechatpay.jpg</span><br><span class="line">alipay: /images/alipay.jpg</span><br><span class="line">#bitcoin: /images/bitcoin.png</span><br><span class="line">...</span><br><span class="line">post_copyright:</span><br><span class="line">  enable: true </span><br><span class="line">  license: &lt;a href=&quot;https://creativecommons.org/licenses/by-nc-sa/4.0/&quot; rel=&quot;external nofollow&quot; target=&quot;_blank&quot;&gt;CC BY-NC-SA 4.0&lt;/a&gt;</span><br><span class="line">.........</span><br><span class="line">!!!!!重点</span><br><span class="line">!开启方式hexo主题next目录下</span><br><span class="line">$ git clone https://github.com/theme-next/theme-next-reading-progress source/lib/reading_progress</span><br><span class="line">然后开启</span><br><span class="line">reading_progress:</span><br><span class="line">  enable: true</span><br><span class="line">  color: &quot;#37c6c0&quot;</span><br><span class="line">  height: 2px</span><br><span class="line">  .........</span><br><span class="line">  # CNZZ count</span><br><span class="line">cnzz_siteid: 1273359837</span><br><span class="line">.......</span><br><span class="line">$ git clone https://github.com/theme-next/theme-next-needmoreshare2 source/lib/needsharebutton</span><br><span class="line">needmoreshare2:</span><br><span class="line">  enable: true</span><br><span class="line">  postbottom:</span><br><span class="line">    enable: true </span><br><span class="line">    options:</span><br><span class="line">      iconStyle: box</span><br><span class="line">      boxForm: horizontal</span><br><span class="line">      position: bottomCenter</span><br><span class="line">      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook</span><br><span class="line">  float:</span><br><span class="line">    enable: false</span><br><span class="line">    options:</span><br><span class="line">      iconStyle: box</span><br><span class="line">      boxForm: horizontal</span><br><span class="line">      position: middleRight</span><br><span class="line">      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook</span><br></pre></td></tr></table></figure><p> 2018-4-9 </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"># Post wordcount display settings</span><br><span class="line"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span><br><span class="line">symbols_count_time:</span><br><span class="line">  separated_meta: true</span><br><span class="line">  item_text_post: true</span><br><span class="line">  item_text_total: false</span><br><span class="line">  awl: 25</span><br><span class="line">  wpm: 200</span><br><span class="line">  </span><br><span class="line">## Plugins: http://hexo.io/plugins/</span><br><span class="line">#RSS订阅</span><br><span class="line">plugin:</span><br><span class="line">- hexo-generator-feed</span><br><span class="line">#Feed Atom</span><br><span class="line">feed:</span><br><span class="line">type: atom</span><br><span class="line">path: atom.xml</span><br><span class="line">limit: 20</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># Table Of Contents in the Sidebar</span><br><span class="line">toc:</span><br><span class="line">  enable: true</span><br><span class="line"></span><br><span class="line">  # Automatically add list number to toc.</span><br><span class="line">  number: true</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line">    # Scroll percent label in b2t button.</span><br><span class="line">  scrollpercent: true</span><br><span class="line"></span><br><span class="line">  # Post wordcount display settings</span><br><span class="line"># Dependencies: https://github.com/theme-next/hexo-symbols-count-time</span><br><span class="line">symbols_count_time:</span><br><span class="line">  separated_meta: true</span><br><span class="line">  item_text_post: true</span><br><span class="line">  item_text_total: false</span><br><span class="line">  awl: 25</span><br><span class="line">  wpm: 200</span><br><span class="line"></span><br><span class="line"># CNZZ count</span><br><span class="line">cnzz_siteid: 1273359837</span><br><span class="line"></span><br><span class="line"># Local search</span><br><span class="line"># Dependencies: https://github.com/theme-next/hexo-generator-searchdb</span><br><span class="line">local_search:</span><br><span class="line">  enable: true</span><br><span class="line">  # if auto, trigger search by changing input</span><br><span class="line">  # if manual, trigger search by pressing enter key or search button</span><br><span class="line">  trigger: auto</span><br><span class="line">  # show top n results per article, show all results by setting to -1</span><br><span class="line">  top_n_per_article: 1</span><br><span class="line">  # unescape html strings to the readable one</span><br><span class="line">  unescape: false</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Good Good Study,Day Day UP!&lt;/p&gt;
-&lt;h2 id=&quot;Reflection&quot;&gt;&lt;a href=&quot;#Reflection&quot; class=&quot;headerlink&quot; title=&quot;Reflection&quot;&gt;&lt;/a&gt;Reflection&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;首先要有内容，才需要建立博客，不然有点本末倒置的味道&lt;/li&gt;
-&lt;li&gt;由此耽误了很多的工作，暂时告一段落&lt;/li&gt;
-&lt;li&gt;1/40程序员，真的不着调&lt;/li&gt;
-&lt;li&gt;把自己的主业搞起来，才ok&lt;/li&gt;
-&lt;li&gt;有时间的话尝试是可以的，但是不能如此的分心啊
-    
-    </summary>
-    
-      <category term="daybreak" scheme="https://tgot.net/categories/daybreak/"/>
-    
-    
-      <category term="diary" scheme="https://tgot.net/tags/diary/"/>
-    
-      <category term="hexo" scheme="https://tgot.net/tags/hexo/"/>
-    
-      <category term="next-theme" scheme="https://tgot.net/tags/next-theme/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Daily Summary</title>
-    <link href="https://tgot.net/blog/2018/0408-index.html"/>
-    <id>https://tgot.net/blog/2018/0408-index.html</id>
-    <published>2018-04-07T19:14:34.000Z</published>
-    <updated>2018-04-10T01:49:36.647Z</updated>
-    
-    <content type="html"><![CDATA[<p>Good Good Study,Day Day UP!</p><h2 id="Done"><a href="#Done" class="headerlink" title="Done"></a>Done</h2><ul><li><p>blog目录配置.<code>_config.yml</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">permalink: blog/:year:month:day-:urlname.html</span><br><span class="line">permalink_defaults:</span><br><span class="line">urlname: index</span><br></pre></td></tr></table></figure></li><li><p>post模板配置<code>blog\scaffolds\post.md</code></p><a id="more"></a><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">urlname: index</span><br><span class="line">tags:</span><br><span class="line">- diary</span><br><span class="line">categories:</span><br><span class="line">- daybreak</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line">Good Good Study,Day Day UP!</span><br><span class="line"></span><br><span class="line">## Done</span><br><span class="line">- </span><br><span class="line"></span><br><span class="line">## Reflection</span><br><span class="line">- </span><br><span class="line"></span><br><span class="line">## ToDo</span><br><span class="line">-</span><br></pre></td></tr></table></figure></li></ul><h2 id="Reflection"><a href="#Reflection" class="headerlink" title="Reflection"></a>Reflection</h2><ul><li>so easy</li></ul><h2 id="ToDo"><a href="#ToDo" class="headerlink" title="ToDo"></a>ToDo</h2><ul><li>wait for next good way </li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Good Good Study,Day Day UP!&lt;/p&gt;
-&lt;h2 id=&quot;Done&quot;&gt;&lt;a href=&quot;#Done&quot; class=&quot;headerlink&quot; title=&quot;Done&quot;&gt;&lt;/a&gt;Done&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;blog目录配置.&lt;code&gt;_config.yml&lt;/code&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;permalink: blog/:year:month:day-:urlname.html&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;permalink_defaults:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;urlname: index&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;post模板配置&lt;code&gt;blog\scaffolds\post.md&lt;/code&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="daybreak" scheme="https://tgot.net/categories/daybreak/"/>
-    
-    
-      <category term="diary" scheme="https://tgot.net/tags/diary/"/>
-    
-      <category term="hexo" scheme="https://tgot.net/tags/hexo/"/>
     
   </entry>
   
