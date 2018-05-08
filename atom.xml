@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tgot.net/"/>
-  <updated>2018-05-07T08:08:59.508Z</updated>
+  <updated>2018-05-08T09:15:51.905Z</updated>
   <id>https://tgot.net/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>登录远程桌面及文件复制</title>
+    <link href="https://tgot.net/blog/2018/0508-remote-desktop-file-copy.html"/>
+    <id>https://tgot.net/blog/2018/0508-remote-desktop-file-copy.html</id>
+    <published>2018-05-08T08:29:25.000Z</published>
+    <updated>2018-05-08T09:15:51.905Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>有这样一种需求，我们打开远程的计算机，并且在远程计算机和本地机器之间进行文件传递。方法可能有很多，比如使用相关软件，QQ远程协助，花生壳等等，而我有自己原始的方法，可能存在问题，但是他的确能实现。与朋友共享。<br><a id="more"></a></p></blockquote><h3 id="远程计算机设置"><a href="#远程计算机设置" class="headerlink" title="远程计算机设置"></a>远程计算机设置</h3><ul><li>获取计算机ip地址</li><li>右键计算机</li><li>选中远程设置，系统属性，允许远程计算机连接到本地</li><li>如果没有密码，并且还需要远程登录，那么就需要如下设置<ul><li>控制面板</li><li>管理工具</li><li>本地安全策略</li><li>使用空白密码的本地账户只允许进行控制台登录设置为禁止</li></ul></li></ul><h3 id="本地计算机设置"><a href="#本地计算机设置" class="headerlink" title="本地计算机设置"></a>本地计算机设置</h3><ul><li>windows</li><li>附件</li><li>远程桌面连接</li><li>输入ip地址</li><li>本地资源</li><li>本地设备和资源中详细信息</li><li>驱动器，选中需要交流的硬盘</li><li>连接登录即可</li><li><h3 id="文献参考"><a href="#文献参考" class="headerlink" title="文献参考"></a>文献参考</h3></li><li><a href="http://www.xitongcheng.com/jiaocheng/win7_article_26089.html" target="_blank" rel="noopener">文献1</a></li><li><a href="https://jingyan.baidu.com/article/2fb0ba406a027300f2ec5f1f.html" target="_blank" rel="noopener">文献2</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;有这样一种需求，我们打开远程的计算机，并且在远程计算机和本地机器之间进行文件传递。方法可能有很多，比如使用相关软件，QQ远程协助，花生壳等等，而我有自己原始的方法，可能存在问题，但是他的确能实现。与朋友共享。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="软件列表" scheme="https://tgot.net/categories/%E8%BD%AF%E4%BB%B6%E5%88%97%E8%A1%A8/"/>
+    
+    
+      <category term="远程登录" scheme="https://tgot.net/tags/%E8%BF%9C%E7%A8%8B%E7%99%BB%E5%BD%95/"/>
+    
+  </entry>
   
   <entry>
     <title>包容知足和感恩</title>
@@ -502,34 +525,6 @@
       <category term="config.yml" scheme="https://tgot.net/tags/config-yml/"/>
     
       <category term="博客配置" scheme="https://tgot.net/tags/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客定位V0.1</title>
-    <link href="https://tgot.net/blog/2018/0410-blog-orientations.html"/>
-    <id>https://tgot.net/blog/2018/0410-blog-orientations.html</id>
-    <published>2018-04-10T01:51:53.000Z</published>
-    <updated>2018-04-25T12:19:41.690Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>关于本博客的定位，是时候要思考一下了。</p></blockquote><a id="more"></a><blockquote><p>涉网多年，建站多次，最后基本都无疾而终，可能自己的性格以及做事的风格导致其恶果。这次又重新折腾起来的原因是大概受一些博友的影响，也相对自己行为习惯做一个正确的引导和监督。</p></blockquote><h3 id="明确定位"><a href="#明确定位" class="headerlink" title="明确定位"></a>明确定位</h3><ul><li>梳理自己解决问题的思路和方法。自己往往解决完一个问题后，疏于总结，最后再遇到同样问题的时候，又要重新开始，为避免在同一问题上做重复工作，总结还是很有必要的，期望日积月累，形成自己的技术库。</li><li>发表自己对于问题的看法。自己也要尝试着有态度，有深度。</li><li>网摘录好文。站在巨人的肩上，我可以看得更远。</li><li>沟通交流。三人行，必有我师。</li></ul><h3 id="拒绝发表"><a href="#拒绝发表" class="headerlink" title="拒绝发表"></a>拒绝发表</h3><ul><li>流水日志：建站目的之一最终还是沦落为首要抛弃对象。</li><li>有关个人、朋友隐私的信息。大数据时代，显然隐私已成为笑谈，作为一个社会人，我即便不能逃避别有用心之人的窥探，也要在他们行凶的路上提供一些障碍，尽管我可能最终不能阻止他们得逞，但是也要尽力去延缓他们的步伐。</li><li>不实言论。拒绝虚假。</li><li>不适言论。</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;关于本博客的定位，是时候要思考一下了。&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="daybreak" scheme="https://tgot.net/categories/daybreak/"/>
-    
-    
-      <category term="blog" scheme="https://tgot.net/tags/blog/"/>
-    
-      <category term="orientations" scheme="https://tgot.net/tags/orientations/"/>
-    
-      <category term="博客定位" scheme="https://tgot.net/tags/%E5%8D%9A%E5%AE%A2%E5%AE%9A%E4%BD%8D/"/>
     
   </entry>
   
