@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tgot.net/"/>
-  <updated>2018-05-08T09:15:51.905Z</updated>
+  <updated>2018-05-11T14:36:21.431Z</updated>
   <id>https://tgot.net/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>利用javascript书签制作有意思的东西</title>
+    <link href="https://tgot.net/blog/2018/0511-javascript-bookmark-funything.html"/>
+    <id>https://tgot.net/blog/2018/0511-javascript-bookmark-funything.html</id>
+    <published>2018-05-11T14:20:58.000Z</published>
+    <updated>2018-05-11T14:36:21.431Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>今天我们利用JavaScript来制作一个书签，一个有意思的事情。</p></blockquote><a id="more"></a><h3 id="本地书签"><a href="#本地书签" class="headerlink" title="本地书签"></a>本地书签</h3><ul><li>在浏览器创建书签，名称随便起</li><li>代码简单说明<ul><li>创建一个script标签a</li><li>定义a的各个属性</li><li>注意js代码路径，根据自己需要进行修改</li><li>定义发生错误时候的脚本</li><li>定义错误中的提示代码，中间用到三元运算符</li><li>期间获取浏览器属性b，以及根据属性判断输出错误形式</li><li>代码中有点击隐藏，和定时隐藏</li></ul></li><li>路径如下代码<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">javascript: (function() &#123;</span><br><span class="line">    try &#123;</span><br><span class="line">        var a = document.createElement(&apos;SCRIPT&apos;);</span><br><span class="line">        a.type = &apos;text/javascript&apos;,</span><br><span class="line">        a.src = &apos;https://gitee.com/aqtech/appset/raw/master/myt.js&apos;,</span><br><span class="line">        a.charset = &apos;utf-8&apos;,</span><br><span class="line">        a.onerror = function() &#123;</span><br><span class="line">            function d(a) &#123;</span><br><span class="line">                return a.indexOf(&apos;360ee&apos;) &gt; -1 || a.indexOf(&apos;360se&apos;) &gt; -1 || a.indexOf(&apos;se&apos;) &gt; -1 || a.indexOf(&apos;aoyou&apos;) &gt; -1 || a.indexOf(&apos;theworld&apos;) &gt; -1 || a.indexOf(&apos;worldchrome&apos;) &gt; -1 || a.indexOf(&apos;greenbrowser&apos;) &gt; -1 || a.indexOf(&apos;qqbrowser&apos;) &gt; -1 || a.indexOf(&apos;baidu&apos;) &gt; -1</span><br><span class="line">            &#125;</span><br><span class="line">           </span><br><span class="line">            var a = document.createElement(&apos;div&apos;),</span><br><span class="line">            b = navigator.userAgent.toLowerCase(),</span><br><span class="line">            c = b.match(/chrome\/([\d.]+)/)[1];</span><br><span class="line">            a.style.cssText = &apos;position: fixed;top: 10px;right: 30px;padding: 5px;border-radius: 5px;box-shadow: rgb(92, 184, 229) 0px 0px 2px; -webkit-box-shadow: rgb(92, 184, 229) 0px 0px 2px;background-color: rgba(92, 184, 229, 0.498039) !important;z-index: 999999;&apos;,</span><br><span class="line">            a.innerHTML = c &amp;&amp; !d(b) ? &apos;&lt;div style=&quot;padding: 20px;border: 1px solid rgb(92, 184, 229);background: white;border-radius: 5px;width: 330px;&quot;&gt;一不小心出现点小状况，请速度前去 &lt;a style=&quot;color:#1d7fe2&quot; href=&quot;https://tgot.net/about/&quot; target=&quot;_blank&quot;&gt;寻找帮助&lt;/a&gt; &lt;/div&gt;&apos;: &apos;&lt;div style=&quot;padding: 20px;border: 1px solid rgb(92, 184, 229);background: white;border-radius: 5px;&quot;&gt;该扩展暂不支持该类型网站&lt;/div&gt;&apos;,</span><br><span class="line">            document.body.appendChild(a),</span><br><span class="line">            a.onclick = function() &#123;</span><br><span class="line">                a.style.display = &apos;none&apos;</span><br><span class="line">            &#125;,</span><br><span class="line">            setTimeout(function() &#123;</span><br><span class="line">                a.click()</span><br><span class="line">            &#125;,</span><br><span class="line">            8e4)</span><br><span class="line">        &#125;,</span><br><span class="line">        document.getElementsByTagName(&apos;head&apos;)[0].appendChild(a)</span><br><span class="line">    &#125; catch(b) &#123;</span><br><span class="line">        alert(b)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)();</span><br></pre></td></tr></table></figure></li></ul><h3 id="远程代码"><a href="#远程代码" class="headerlink" title="远程代码"></a>远程代码</h3><ul><li>存放位置和上面定义位置一样</li><li>存放代码<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">try &#123;</span><br><span class="line">    alert(window.location.href);</span><br><span class="line">&#125;</span><br><span class="line">catch(err) &#123;</span><br><span class="line">    alert(err.mssage);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ul><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul><li>知识<a href="http://www.runoob.com/jsref/jsref-try-catch.html" target="_blank" rel="noopener">http://www.runoob.com/jsref/jsref-try-catch.html</a></li><li>知识<a href="http://www.w3school.com.cn/js/js_onerror.asp" target="_blank" rel="noopener">http://www.w3school.com.cn/js/js_onerror.asp</a></li><li>有道云笔记<a href="http://note.youdao.com/web-clipper-chrome.html" target="_blank" rel="noopener">http://note.youdao.com/web-clipper-chrome.html</a></li><li>脚本压缩<a href="http://tools.jb51.net/code/jscompress" target="_blank" rel="noopener">http://tools.jb51.net/code/jscompress</a></li><li>urlcode转换<a href="http://tool.chinaz.com/tools/urlencode.aspx" target="_blank" rel="noopener">http://tool.chinaz.com/tools/urlencode.aspx</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;今天我们利用JavaScript来制作一个书签，一个有意思的事情。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="daybreak" scheme="https://tgot.net/categories/daybreak/"/>
+    
+    
+      <category term="javascript" scheme="https://tgot.net/tags/javascript/"/>
+    
+      <category term="bookmark" scheme="https://tgot.net/tags/bookmark/"/>
+    
+  </entry>
   
   <entry>
     <title>登录远程桌面及文件复制</title>
@@ -358,9 +384,9 @@
       <category term="daybreak" scheme="https://tgot.net/categories/daybreak/"/>
     
     
-      <category term="coding" scheme="https://tgot.net/tags/coding/"/>
-    
       <category term="code" scheme="https://tgot.net/tags/code/"/>
+    
+      <category term="coding" scheme="https://tgot.net/tags/coding/"/>
     
   </entry>
   
@@ -495,36 +521,6 @@
       <category term="next" scheme="https://tgot.net/tags/next/"/>
     
       <category term="rss" scheme="https://tgot.net/tags/rss/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>将hexo和next的配置文件独立起来</title>
-    <link href="https://tgot.net/blog/2018/0410-hexo-next-config-set.html"/>
-    <id>https://tgot.net/blog/2018/0410-hexo-next-config-set.html</id>
-    <published>2018-04-10T09:52:21.000Z</published>
-    <updated>2018-04-10T13:55:53.760Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>更新hexo版本和next主题时候，又担心配置丢失。通过官方提供功能，将配置文件<code>_config.yml</code>独立出来，即使通过更更新版本，也不会把配置丢失，只需要把新功能相关的配置，重新复制一下进行配置就好。功能很赞。</p></blockquote><a id="more"></a><h3 id="更新步骤"><a href="#更新步骤" class="headerlink" title="更新步骤"></a>更新步骤</h3><ul><li>确保Hexo 版本为 3.0 或更高</li><li>在你站点的<code>hexo/source/_data</code>目录创建一个<code>next.yml</code>文件（如果<code>_data</code>目录不存在，请创建之）。</li><li>选择 <code>override: false</code></li><li>检查默认 NexT 配置中的<code>override</code>选项，必须设置为<code>false</code>。在 <code>next.yml</code>文件中，也要设置为 <code>false</code>，或者不定义此选项。</li><li>从站点的<code>_config.yml</code>与主题的<code>_config.yml</code>中复制你需要的选项到<code>hexo/source/_data/next.yml</code>中。</li><li>然后，在站点的<code>hexo/_config.yml</code>中需要定义<code>theme: next</code>选项（如果需要的话，<code>source_dir: source</code>）。</li><li>使用标准参数来启动服务器，生成或部署（<code>hexo clean &amp;&amp; hexo g -d &amp;&amp; hexo s</code>）。</li></ul><h3 id="可能存在问题"><a href="#可能存在问题" class="headerlink" title="可能存在问题"></a>可能存在问题</h3><ul><li>更新生成后站点出现语言错误，我的解决方法是：不仅仅是要在站点配置中设置语言，还要在新的资源文件中配置语言。其他选项正常。如果你遇到这样问题，可以依法解决。</li><li>其他暂时正常。</li><li><strong>悲催发现，竟然<code>hexo d</code>不起作用，并且三方插件也好像有问题，因此决定以上不复制站点配置，只复制主题配置</strong></li></ul><h3 id="后续出现hexo更新和next主题升级操作"><a href="#后续出现hexo更新和next主题升级操作" class="headerlink" title="后续出现hexo更新和next主题升级操作"></a>后续出现hexo更新和next主题升级操作</h3><h4 id="直接升级Hexo主程序"><a href="#直接升级Hexo主程序" class="headerlink" title="直接升级Hexo主程序"></a>直接升级Hexo主程序</h4><ul><li>建议还是从新安装吧，<a href="https://hexo.io/zh-cn/docs/setup.html" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/setup.html</a></li><li><p>或者</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo -g #安装  </span><br><span class="line">npm update hexo -g #升级  </span><br><span class="line">hexo init #初始化</span><br></pre></td></tr></table></figure></li><li><p>更多命令官方，或者<a href="https://segmentfault.com/a/1190000002632530" target="_blank" rel="noopener">朋友总结</a></p></li></ul><h4 id="直接升级NexT主题"><a href="#直接升级NexT主题" class="headerlink" title="直接升级NexT主题"></a>直接升级NexT主题</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd your-hexo-site</span><br><span class="line">$ git clone https://github.com/theme-next/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure><h4 id="后续重点配置"><a href="#后续重点配置" class="headerlink" title="后续重点配置"></a>后续<strong>重点配置</strong></h4><ul><li>升级完成首先<code>hexo server -g</code>，查看<code>http://localhost:4000</code>是不是正常，如果正常则万事大吉，如果不正常则进行如下步骤</li><li>不正常故障排除<ul><li>在站点<code>_config.yml</code>至少要进行模板<code>theme</code>配置，或者可能还要<code>language</code>配置</li><li>复制站点设置<code>_config.yml</code>中需要更改的项目到<code>hexo/source/_data/next.yml</code>文件</li><li>复制主题设置中<code>_config.yml</code>中新相关设置到<code>hexo/source/_data/next.yml</code>文件</li><li>命令<code>hexo server -g</code>，查看是否正常。</li><li>在不正常，就洗洗睡吧</li></ul></li><li><strong>只复制主题配置，站点配置老老实实的升级之前备份一份吧</strong><h3 id="资源参考"><a href="#资源参考" class="headerlink" title="资源参考"></a>资源参考</h3></li><li><a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/DATA-FILES.md" target="_blank" rel="noopener">https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/DATA-FILES.md</a></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;更新hexo版本和next主题时候，又担心配置丢失。通过官方提供功能，将配置文件&lt;code&gt;_config.yml&lt;/code&gt;独立出来，即使通过更更新版本，也不会把配置丢失，只需要把新功能相关的配置，重新复制一下进行配置就好。功能很赞。&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="daybreak" scheme="https://tgot.net/categories/daybreak/"/>
-    
-    
-      <category term="hexo" scheme="https://tgot.net/tags/hexo/"/>
-    
-      <category term="next" scheme="https://tgot.net/tags/next/"/>
-    
-      <category term="config.yml" scheme="https://tgot.net/tags/config-yml/"/>
-    
-      <category term="博客配置" scheme="https://tgot.net/tags/%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
