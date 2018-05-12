@@ -155,10 +155,10 @@
         <category>软件列表</category>
       </categories>
       <tags>
+        <tag>hexo</tag>
         <tag>coding</tag>
         <tag>webide</tag>
         <tag>next</tag>
-        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -241,8 +241,8 @@
         <category>博客设置</category>
       </categories>
       <tags>
-        <tag>next</tag>
         <tag>hexo</tag>
+        <tag>next</tag>
         <tag>rss</tag>
       </tags>
   </entry>
@@ -254,8 +254,8 @@
         <category>daybreak</category>
       </categories>
       <tags>
-        <tag>next</tag>
         <tag>hexo</tag>
+        <tag>next</tag>
         <tag>config.yml</tag>
         <tag>博客配置</tag>
       </tags>
